@@ -1,6 +1,7 @@
 import csv
 import datetime
 import xml.etree.ElementTree as ET
+from lxml import etree
 import json
 import logging
 import pathlib
@@ -24,8 +25,6 @@ def getAllFiles(directory):
 def printAllChildrenNames(xmlList):
     for ccd in xmlList:
         root = ccd.getroot()
-        for child in root:
-           print(child.tag)
-           print(child.attrib)
+        print(etree.tostring(root, pretty_print=True, encoding='unicode'))
 
 printAllChildrenNames(getAllFiles('example_data'))
