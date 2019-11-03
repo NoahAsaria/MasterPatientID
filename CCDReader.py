@@ -1,30 +1,43 @@
-import csv
-import datetime
+import os
+from bs4 import BeautifulSoup
+import lxml
 import xml.etree.ElementTree as ET
-from lxml import etree
-import json
-import logging
-import pathlib
-from pathlib import Path
-import pprint
 
-#getAllFiles
-    #input: directory name
-    #output: list containing element-tree parsings of each file in directory
-def getAllFiles(directory):
-    directoryPath = Path(directory)
-    data = []
-    assert(directoryPath.is_dir())
-    for f in directoryPath.iterdir():
-        data.append(ET.parse(f))
-    return data
 
-#printAllChildrenNames
-    #input: list
-    #output: all child tag/attributes within list elements
-def printAllChildrenNames(xmlList):
-    for ccd in xmlList:
-        root = ccd.getroot()
-        print(etree.tostring(root, pretty_print=True, encoding='unicode'))
+def parseXML(file):
+    tree = ET.parse(file)
+    root = tree.getroot()
+    printRoot(root)
 
-printAllChildrenNames(getAllFiles('example_data'))
+def printRoot(root):
+    #print(root.tag.replace("{urn:hl7-org:v3}", ""), ": ", root.attrib, root.text)   
+    print(root.tag.replace("{urn:hl7-org:v3}", ""), ": ", root.text)
+    printChildrenFromRoot(root, 0)
+
+def printChildrenFromRoot(root, index):
+    index = index+1 
+    for child in root:
+        tabs = ""
+        for i in range(0, index):
+            tabs=tabs+"\t"
+        #print(tabs,child.tag.replace("{urn:hl7-org:v3}", ""), child.attrib, child.text)
+        print(tabs,child.tag.replace("{urn:hl7-org:v3}", ""), ": ", child.text)
+        printChildrenFromRoot(child, index)
+
+
+
+
+dirpath = os.getcwd()
+#print("current directory is : " + dirpath)
+
+files = []
+# r=root, d=directories, f = files
+# Get all xml files in the current directory
+for r, d, f in os.walk(dirpath):
+    for file in f:
+        if '.xml' in file:
+            files.append(os.path.join(r, file))
+
+
+for f in files:
+    parseXML(f)
