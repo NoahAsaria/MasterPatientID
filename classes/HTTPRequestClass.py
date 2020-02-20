@@ -71,9 +71,10 @@ class HTTPRequest:
     #Ex: http://hackathon.siim.org//fhir/Patient/?_id=siimjoe&_resourceType=Patient
     def constructRequestUrl(self):
         url = self.apiEndpoint + "/" + self.resource + "/?"
+        #
         for key,value in self.identifiersDict.items():
-            #print(key, value)
-            url += (key + "=" + value +"&")
+            for it in value:
+                url += (key + "=" + it +"&")
         return url
     
     def executeRequest(self, url1):
