@@ -73,8 +73,7 @@ class HTTPRequest:
         url = self.apiEndpoint + "/" + self.resource + "/?"
         #
         for key,value in self.identifiersDict.items():
-            for it in value:
-                url += (key + "=" + it +"&")
+            url += (key + "=" + value +"&")
         return url
     
     def executeRequest(self, url1):
