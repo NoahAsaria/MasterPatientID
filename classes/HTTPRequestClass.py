@@ -38,6 +38,7 @@ class HTTPRequest:
         self.apiEndpoint = endpt
     def setApiKey(self, key):
         self.apiKey = key
+        print(self.apiKey)
     def setRequestType(self, request):
         self.requestType = request
     def setResource(self, res):
@@ -78,7 +79,8 @@ class HTTPRequest:
         req = self.requestType.lower()
         h = self.headersDict
         if (self.apiKey is not None):
-            h = self.headersDict.update({'apikey': self.apiKey})
+            a = {'apikey': self.apiKey}
+            print(h.update(a))
         if (req == 'get'):
             response = requests.get(url = url1, headers = h)
             return response
