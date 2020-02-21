@@ -12,15 +12,15 @@ import logging
 #identifiersDict = {"id": "siimjoe", "name": "joseph", ...}
 #apiKey must be passed in via setApiKey
 class HTTPRequest:
-    def __init__(self, apiEndpoint=None, requestType=None, resource=None, headersDict=None, identifiersDict=None):
-        if apiEndpoint is None:
-            self.apiEndpoint = ''
-        else:
-            self.apiEndpoint = apiEndpoint
+    def __init__(self,  requestType=None, apiEndpoint=None, resource=None, headersDict=None, identifiersDict=None):
         if requestType is None:
             self.requestType = ''
         else:
             self.requestType = requestType
+        if apiEndpoint is None:
+            self.apiEndpoint = ''
+        else:
+            self.apiEndpoint = apiEndpoint
         if resource is None:
             self.resource = ''
         else:
