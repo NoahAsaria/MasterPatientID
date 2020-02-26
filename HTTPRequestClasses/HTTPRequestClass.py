@@ -27,6 +27,7 @@ class HTTPRequest:
         else:
             self.identifiersDict = identifiersDict
         self.apiKey = None
+        self.fullUrl = self.constructRequestUrl()
 
     def setApiEndpoint(self, endpt):
         self.apiEndpoint = endpt
@@ -67,6 +68,8 @@ class HTTPRequest:
     def getPayload(self):
         return self.payload
 
+    def getFullURL(self):
+        return self.fullUrl
     def toString(self):
         return "apiEndpoint=" + self.apiEndpoint + ", requestType=" + self.requestType + ", resource=" + self.resource + ", headersDict=" + str(
             self.headersDict) + ", identifiersDict=" + str(self.identifiersDict)
@@ -80,6 +83,9 @@ class HTTPRequest:
                     url += (key + "=" + value + "&")
             except:
                 print("Invalid query parameters. Key =", key, ", Value =", value)
+        if (url[-1] == '&'): url = url[:-1]  # remove trailing &
+        if (url[-1] == '?'): url = url[:-1]  # remove trailing ?
+        self.fullUrl = url
         return url
 
     def executeRequest(self, url1):

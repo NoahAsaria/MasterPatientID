@@ -8,6 +8,7 @@ import requests
 import json
 import urllib
 import logging
+import time
 
 payload = {
         "resourceType": "Patient",
@@ -101,16 +102,32 @@ payload = {
         }
     }
 
+print("POSTING PAYLOAD ... ")
+time.sleep(2)
+
 isabellaPost = http.createDefaultPatientPOSTRequest()
 isabellaPost.setPayload(payload)
 response = isabellaPost.executeRequest()
-print(response.text, "response", response.status_code)
+
+print("ENDPOINT REQUESTED: ", isabellaPost.getFullURL())
+print("RESPONSE RETURNED: ", response.status_code)
+print("DATA POSTED: ")
+time.sleep(1)
+print(response.text)
+
+time.sleep(3)
+print("GETTING PAYLOAD: ")
+time.sleep(1)
 
 isabellaRequest = http.createDefaultPatientGETRequest()
 isabellaDemographics = parser.Demographics('IsabellaJones-ReferralSummary.xml')
 isabellaLookupIds = {'given' : isabellaDemographics.getFirstName()}
 isabellaRequest.setIdentifiersDict(isabellaLookupIds)
 response = isabellaRequest.executeRequest()
-print("GET Returned: ",response.status_code,"\n", response.text)
+
+print("ENDPOINT REQUESTED: ", isabellaRequest.getFullURL())
+print("GET RETURNED: ",response.status_code)
+time.sleep(3)
+print("DATA RECEIVED: ", response.text)
 
 

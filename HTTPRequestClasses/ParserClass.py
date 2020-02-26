@@ -29,7 +29,7 @@ class Demographics:
         root = tree.getroot()
         return root
 
-    def writeToCSV(self, file):
+    def writeToCSV(self):
         root = self.getRoot(self.filepath)
         DemographicsCSV = open('demographic.csv', 'w')
         csvwriter = csv.writer(DemographicsCSV)
