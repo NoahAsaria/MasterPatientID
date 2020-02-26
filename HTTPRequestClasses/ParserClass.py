@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
 
 
 from xml.etree import ElementTree
@@ -100,9 +96,6 @@ dict1 = parseDemographicsDictFromRoot(getRoot('IsabellaJones-ReferralSummary.xml
 print(dict1)
 
 
-# In[8]:
-
-
 def getFirstName(d):
     try:
         return d['firstname'][0]
@@ -118,23 +111,11 @@ def getLastName(d):
 dict1 = parseDemographicsDictFromRoot(getRoot('IsabellaJones-ReferralSummary.xml'))
 print(getFirstName(dict1))
 
-
-# In[34]:
-
-
 import requests
 import json
 import urllib
 import logging
 
-#Refer to https://stackoverflow.com/questions/4841782/python-constructor-and-default-value
-#HTTPRequest(apiEndpoint, requestType, resource, headersDict, identifiersDict):
-#apiEndpoint = http://hackathon.siim.org/fhir/
-#requestType = POST/GET/PUT/...
-#resource = Patient (endpoint becomes apiEndpoint/resource)
-#headersDict = HEADERS = {'content-type': 'application/json', 'apikey': API_KEY}
-#identifiersDict = {"id": "siimjoe", "name": "joseph", ...}
-#apiKey must be passed in via setApiKey
 class HTTPRequest:
     def __init__(self,  requestType=None, apiEndpoint=None, resource=None, headersDict=None, identifiersDict=None):
         if requestType is None:
@@ -188,9 +169,6 @@ class HTTPRequest:
     def toString(self):
         return "apiEndpoint=" + self.apiEndpoint + ", requestType=" + self.requestType + ", resource=" + self.resource +         ", headersDict=" + str(self.headersDict) + ", identifiersDict=" + str(self.identifiersDict)
 
-    #constructRequestUrl(self): 
-    #url = apiEndpoint/resourceType/?id1=key1&id2=key2&...
-    #Ex: http://hackathon.siim.org//fhir/Patient/?_id=siimjoe&_resourceType=Patient
     def constructRequestUrl(self):
         url = self.apiEndpoint + "/" + self.resource + "/?"
         req = self.requestType.lower()
@@ -248,10 +226,6 @@ def createDefaultPatientPOSTRequest():
     POSTTest.setHeadersDict({'content-type': 'application/json'})
     POSTTest.setApiKey('d6e052ee-18c9-4f3b-a150-302c998e804c')
     return POSTTest
-
-
-# In[35]:
-
 
 payload = {
         "resourceType": "Patient",
@@ -350,19 +324,11 @@ response = isabellaPost.executeRequest()
 print(response.text, "response", response.status_code)
 
 
-# In[37]:
-
-
 isabellaRequest = createDefaultPatientGETRequest()
 isabellaDemoDict = parseDemographicsDictFromRoot(getRoot('IsabellaJones-ReferralSummary.xml'))
 isabellaLookupIds = {'given' : getFirstName(isabellaDemoDict)}
 isabellaRequest.setIdentifiersDict(isabellaLookupIds)
 response = isabellaRequest.executeRequest().text
 print(response)
-
-
-# In[ ]:
-
-
 
 
