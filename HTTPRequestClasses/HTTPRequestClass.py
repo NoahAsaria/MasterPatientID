@@ -3,16 +3,9 @@ import json
 import urllib
 import logging
 
-#Refer to https://stackoverflow.com/questions/4841782/python-constructor-and-default-value
-#HTTPRequest(apiEndpoint, requestType, resource, headersDict, identifiersDict):
-#apiEndpoint = http://hackathon.siim.org/fhir/
-#requestType = POST/GET/PUT/...
-#resource = Patient (endpoint becomes apiEndpoint/resource)
-#headersDict = HEADERS = {'content-type': 'application/json', 'apikey': API_KEY}
-#identifiersDict = {"id": "siimjoe", "name": "joseph", ...}
-#apiKey must be passed in via setApiKey
+
 class HTTPRequest:
-    def __init__(self,  requestType=None, apiEndpoint=None, resource=None, headersDict=None, identifiersDict=None):
+    def __init__(self, requestType=None, apiEndpoint=None, resource=None, headersDict=None, identifiersDict=None):
         if requestType is None:
             self.requestType = ''
         else:
@@ -34,49 +27,61 @@ class HTTPRequest:
         else:
             self.identifiersDict = identifiersDict
         self.apiKey = None
+
     def setApiEndpoint(self, endpt):
         self.apiEndpoint = endpt
+
     def setApiKey(self, key):
         self.apiKey = key
+
     def setRequestType(self, request):
         self.requestType = request
+
     def setResource(self, res):
         self.resource = res
+
     def setHeadersDict(self, hd):
         self.headersDict = hd
+
     def setIdentifiersDict(self, id):
         self.identifiersDict = id
+
     def setPayload(self, p):
         self.payload = p;
-        
+
     def getApiEndpoint(self):
         return self.apiEndpoint
+
     def getRequestType(self):
         return self.requestType
+
     def getResource(self):
         return self.resource
+
     def getHeadersDict(self):
         return self.headersDict
+
     def getIdentifiersDict(self):
         return self.identifiersDict
+
     def getPayload(self):
         return self.payload
-    def toString(self):
-        return "apiEndpoint=" + self.apiEndpoint + ", requestType=" + self.requestType + ", resource=" + self.resource + \
-        ", headersDict=" + str(self.headersDict) + ", identifiersDict=" + str(self.identifiersDict)
 
-    #constructRequestUrl(self): 
-    #url = apiEndpoint/resourceType/?id1=key1&id2=key2&...
-    #Ex: http://hackathon.siim.org//fhir/Patient/?_id=siimjoe&_resourceType=Patient
+    def toString(self):
+        return "apiEndpoint=" + self.apiEndpoint + ", requestType=" + self.requestType + ", resource=" + self.resource + ", headersDict=" + str(
+            self.headersDict) + ", identifiersDict=" + str(self.identifiersDict)
+
     def constructRequestUrl(self):
         url = self.apiEndpoint + "/" + self.resource + "/?"
-        try:
-            for key,value in self.identifiersDict.items():
-                url += (key + "=" + value +"&")
-        except:
-            print("Invalid query parameters. Key =",key, ", Value =",value)
+        req = self.requestType.lower()
+        if (req == 'get'):
+            try:
+                for key, value in self.identifiersDict.items():
+                    url += (key + "=" + value + "&")
+            except:
+                print("Invalid query parameters. Key =", key, ", Value =", value)
         return url
-    
+
     def executeRequest(self, url1):
         req = self.requestType.lower()
         h = self.headersDict
@@ -84,11 +89,44 @@ class HTTPRequest:
             a = {'apikey': self.apiKey}
             h.update(a)
         if (req == 'get'):
-            response = requests.get(url = url1, headers = h)
+            response = requests.get(url=url1, headers=h)
             return response
         elif (req == 'post'):
-            response = requests.post(url = url1, headers = h, json = self.payload)
+            response = requests.post(url=url1, headers=h, json=self.payload)
             return response
         else:
             return "Invalid request type"
-  
+
+    def executeRequest(self):
+        url1 = self.constructRequestUrl()
+        req = self.requestType.lower()
+        h = self.headersDict
+        if (self.apiKey is not None):
+            a = {'apikey': self.apiKey}
+            h.update(a)
+        if (req == 'get'):
+            response = requests.get(url=url1, headers=h)
+            return response
+        elif (req == 'post'):
+            response = requests.post(url=url1, headers=h, json=self.payload)
+            return response
+        else:
+            return "Invalid request type"
+
+
+def createDefaultPatientGETRequest():
+    GETTest = HTTPRequest('GET')
+    GETTest.setApiEndpoint("http://hackathon.siim.org/fhir")
+    GETTest.setResource("Patient")
+    GETTest.setHeadersDict({'content-type': 'application/json'})
+    GETTest.setApiKey('d6e052ee-18c9-4f3b-a150-302c998e804c')
+    return GETTest
+
+
+def createDefaultPatientPOSTRequest():
+    POSTTest = HTTPRequest('POST')
+    POSTTest.setApiEndpoint("http://hackathon.siim.org/fhir")
+    POSTTest.setResource("Patient")
+    POSTTest.setHeadersDict({'content-type': 'application/json'})
+    POSTTest.setApiKey('d6e052ee-18c9-4f3b-a150-302c998e804c')
+    return POSTTest
