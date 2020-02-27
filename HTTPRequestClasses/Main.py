@@ -135,12 +135,14 @@ JSONResponse = jsonResponse.createPatientJSONResponse(response)
 #lookupIds = ['given', 'family']
 #IsabellaResponse = responses.getPatientGETResponseFromDemographicsFile(fileName, lookupIds)
 
+print("FILE REQUESTED: ", 'IsabellaJones-ReferralSummary.xml')
+time.sleep(2)
 print("ENDPOINT REQUESTED: ", isabellaRequest.getFullURL())
 print("GET RETURNED: ",response.status_code)
 time.sleep(3)
 print("DATA RECEIVED: ", response.text)
 print("TOTAL NUMBER OF ENTRIES: ", JSONResponse.getNumberOfPatientEntries())
-time.sleep(3)
+time.sleep(4)
 
 print("PATIENT FIELDS FROM GET RESPONSE")
 JSONResponse.printPatientDictionaries()
