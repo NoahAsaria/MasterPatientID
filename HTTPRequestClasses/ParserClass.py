@@ -44,16 +44,16 @@ class Demographics:
         names = {}
         root1 = self.root
         for name in root1.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}given'):
-            names.setdefault('firstname', []).append(name.text)
+            names.setdefault('given', []).append(name.text)
         #Parse last name(s)
         for name in root1.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}family'):
-            names.setdefault('lastname', []).append(name.text)
+            names.setdefault('family', []).append(name.text)
         #Parse addresses
         for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}streetAddressLine'):
             names.setdefault('address', []).append(name.text)
         #Parse city
         for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}city'):
-            names.setdefault('address', []).append(name.text)
+            names.setdefault('city', []).append(name.text)
         #Parse state
         for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}state'):
             names.setdefault('state', []).append(name.text)
@@ -107,23 +107,13 @@ class Demographics:
         df = pd.read_csv(csv)
         print(df.head(1))
 
-    def getFirstName(self):
+    def getFieldFromDict(self, field):
         d = self.demographicDict
         try:
-            return d['firstname'][0]
+            if isinstance(d[field], list):
+                return d[field][0]
+            else:
+                return d[field]
         except:
-            print("Can't find first name field in dictionary")
+            print("Can't find", field, "in dictionary")
 
-    def getLastName(self):
-        d = self.demographicDict
-        try:
-            return d['lastname'][0]
-        except:
-            print("Can't find last name field in dictionary")
-
-    def getAddress(self):
-        d = self.demographicDict
-        try:
-            return d['lastname'][0]
-        except:
-            print("Can't find any addresses in dictionary")

@@ -4,6 +4,7 @@ import csv
 import pandas as pd
 import HTTPRequestClass as http
 import ParserClass as parser
+import ResponsesFromFiles as responses
 import requests
 import json
 import urllib
@@ -109,10 +110,12 @@ isabellaPost = http.createDefaultPatientPOSTRequest()
 isabellaPost.setPayload(payload)
 response = isabellaPost.executeRequest()
 
+#isabellaPostResponse = responses.getPOSTPayloadToSIIMPatient(payload)
+
 print("ENDPOINT REQUESTED: ", isabellaPost.getFullURL())
 print("RESPONSE RETURNED: ", response.status_code)
 print("DATA POSTED: ")
-time.sleep(1)
+time.sleep(3)
 print(response.text)
 
 time.sleep(3)
@@ -121,13 +124,24 @@ time.sleep(1)
 
 isabellaRequest = http.createDefaultPatientGETRequest()
 isabellaDemographics = parser.Demographics('IsabellaJones-ReferralSummary.xml')
-isabellaLookupIds = {'given' : isabellaDemographics.getFirstName()}
+isabellaLookupIds = {'given' : isabellaDemographics.getFieldFromDict('given')}
 isabellaRequest.setIdentifiersDict(isabellaLookupIds)
 response = isabellaRequest.executeRequest()
+patientsReturned = responses.getPatientEntriesFromResponse(response)
+
+#fileName = 'IsabellaJones-ReferralSummary.xml'
+#lookupIds = ['given', 'family']
+#IsabellaResponse = responses.getPatientGETResponseFromDemographicsFile(fileName, lookupIds)
+
+print(response.status_code)
 
 print("ENDPOINT REQUESTED: ", isabellaRequest.getFullURL())
 print("GET RETURNED: ",response.status_code)
 time.sleep(3)
 print("DATA RECEIVED: ", response.text)
+time.sleep(3)
+
+print("JSON ENTRIES SPLIT UP: ")
+print(responses.printEntries(patientsReturned))
 
 
