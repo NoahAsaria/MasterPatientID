@@ -5,6 +5,7 @@ import pandas as pd
 import HTTPRequestClass as http
 import ParserClass as parser
 import ResponsesFromFiles as responses
+import JSONResponseClass as jsonResponse
 import requests
 import json
 import urllib
@@ -127,21 +128,20 @@ isabellaDemographics = parser.Demographics('IsabellaJones-ReferralSummary.xml')
 isabellaLookupIds = {'given' : isabellaDemographics.getFieldFromDict('given')}
 isabellaRequest.setIdentifiersDict(isabellaLookupIds)
 response = isabellaRequest.executeRequest()
-patientsReturned = responses.getPatientEntriesFromResponse(response)
+JSONResponse = jsonResponse.createPatientJSONResponse(response)
+
 
 #fileName = 'IsabellaJones-ReferralSummary.xml'
 #lookupIds = ['given', 'family']
 #IsabellaResponse = responses.getPatientGETResponseFromDemographicsFile(fileName, lookupIds)
 
-print(response.status_code)
-
 print("ENDPOINT REQUESTED: ", isabellaRequest.getFullURL())
 print("GET RETURNED: ",response.status_code)
 time.sleep(3)
 print("DATA RECEIVED: ", response.text)
+print("TOTAL NUMBER OF ENTRIES: ", JSONResponse.getNumberOfPatientEntries())
 time.sleep(3)
 
-print("JSON ENTRIES SPLIT UP: ")
-print(responses.printEntries(patientsReturned))
-
+print("PATIENT FIELDS FROM GET RESPONSE")
+JSONResponse.printPatientDictionaries()
 

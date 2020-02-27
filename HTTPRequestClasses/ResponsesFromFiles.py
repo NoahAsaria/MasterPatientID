@@ -20,7 +20,7 @@ def getPatientGETResponseFromDemographicsFile(filepath, identifierList):
     try:
         for id in identifierList:
             idList.update({id : tempDemographics.getFieldFromDict(id)})
-            print(id, tempDemographics.getFieldFromDict(id))
+            #print(id, tempDemographics.getFieldFromDict(id))
     except:
         print("Parser lookup failed!")
     tempRequest.setIdentifiersDict(idList)
@@ -32,17 +32,3 @@ def getPOSTPayloadToSIIMPatient(payload):
     tempRequest.setPayload(payload)
     response = tempRequest.executeRequest()
     return response
-
-def getPatientEntriesFromResponse(response):
-    json_data = json.loads(response.text)
-    entries = json_data['entry']
-    return entries
-
-def printEntries(patients):
-    for entry in patients:
-        print("\n\n", entry)
-
-fileName = 'IsabellaJones-ReferralSummary.xml'
-lookupIds = ['given', 'family']
-IsabellaResponse = getPatientGETResponseFromDemographicsFile(fileName, lookupIds)
-patients = getPatientEntriesFromResponse(IsabellaResponse)
