@@ -1,0 +1,89 @@
+02/28/2020 02:00:54 PM In getPatientGETResponseFromDemographisFile class
+02/28/2020 02:00:54 PM Parsed identifiers from file Demographics object
+02/28/2020 02:00:54 PM Starting new HTTP connection (1): hackathon.siim.org:80
+02/28/2020 02:00:54 PM http://hackathon.siim.org:80 "GET /fhir/Patient/?given=Isabella&family=Jones HTTP/1.1" 200 None
+02/28/2020 02:00:54 PM Created PatientJSONResponse object
+02/28/2020 02:00:56 PM Starting new HTTP connection (1): hackathon.siim.org:80
+02/28/2020 02:00:56 PM http://hackathon.siim.org:80 "POST /fhir/Patient/ HTTP/1.1" 201 None
+02/28/2020 02:00:59 PM Starting new HTTP connection (1): hackathon.siim.org:80
+02/28/2020 02:00:59 PM http://hackathon.siim.org:80 "GET /fhir/Patient/?given=Isabella HTTP/1.1" 200 None
+02/28/2020 02:00:59 PM Created PatientJSONResponse object
+02/28/2020 02:02:43 PM In getPatientGETResponseFromDemographisFile class
+02/28/2020 02:02:43 PM Parsed identifiers from file Demographics object
+02/28/2020 02:02:43 PM Starting new HTTP connection (1): hackathon.siim.org:80
+02/28/2020 02:02:43 PM http://hackathon.siim.org:80 "GET /fhir/Patient/?given=Isabella&family=Jones HTTP/1.1" 200 None
+02/28/2020 02:02:43 PM Created PatientJSONResponse object
+02/28/2020 02:02:45 PM Starting new HTTP connection (1): hackathon.siim.org:80
+02/28/2020 02:02:45 PM http://hackathon.siim.org:80 "POST /fhir/Patient/ HTTP/1.1" 201 None
+02/28/2020 02:10:17 PM In getPatientGETResponseFromDemographisFile class
+02/28/2020 02:10:17 PM Parsed identifiers from file Demographics object
+02/28/2020 02:10:17 PM Starting new HTTP connection (1): hackathon.siim.org:80
+02/28/2020 02:10:18 PM http://hackathon.siim.org:80 "GET /fhir/Patient/?given=Isabella&family=Jones HTTP/1.1" 200 None
+02/28/2020 02:10:18 PM Created PatientJSONResponse object
+02/28/2020 02:11:36 PM In getPatientGETResponseFromDemographisFile class
+02/28/2020 02:11:36 PM Parsed identifiers from file Demographics object
+02/28/2020 02:11:36 PM Starting new HTTP connection (1): hackathon.siim.org:80
+02/28/2020 02:11:36 PM http://hackathon.siim.org:80 "GET /fhir/Patient/?given=Isabella&family=Jones HTTP/1.1" 200 None
+02/28/2020 02:11:36 PM Created PatientJSONResponse object
+02/28/2020 02:11:38 PM Starting new HTTP connection (1): hackathon.siim.org:80
+02/28/2020 02:11:38 PM http://hackathon.siim.org:80 "POST /fhir/Patient/ HTTP/1.1" 201 None
+02/28/2020 02:17:51 PM In getPatientGETResponseFromDemographicsFile class
+02/28/2020 02:17:51 PM Parsed identifiers from file Demographics object
+02/28/2020 02:17:52 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:17:52 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:17:52 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:17:52 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:17:52 PM Created PatientJSONResponse object
+02/28/2020 02:17:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:17:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'James', 'address': '1002 TestyTest Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:17:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:17:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:17:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:17:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:17:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:17:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:17:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:17:57 PM Created PatientJSONResponse object
+02/28/2020 02:29:51 PM In getPatientGETResponseFromDemographicsFile class
+02/28/2020 02:29:51 PM Field given is in list format, returning Isabella
+02/28/2020 02:29:51 PM Field family is in list format, returning Jones
+02/28/2020 02:29:51 PM Parsed identifiers from file Demographics object
+02/28/2020 02:29:51 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:29:51 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:29:51 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:29:51 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:29:51 PM Created PatientJSONResponse object
+02/28/2020 02:29:57 PM Field given is in list format, returning Isabella
+02/28/2020 02:29:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:29:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'James', 'address': '1002 TestyTest Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:29:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:29:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:29:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:29:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:29:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:29:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:29:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:29:57 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:29:57 PM Created PatientJSONResponse object
+02/28/2020 02:44:09 PM In getPatientGETResponseFromDemographicsFile class
+02/28/2020 02:44:09 PM Field given is in list format, returning Isabella
+02/28/2020 02:44:09 PM Field family is in list format, returning Jones
+02/28/2020 02:44:09 PM Parsed identifiers from file Demographics object
+02/28/2020 02:44:09 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:44:09 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:44:09 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:44:09 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:44:09 PM Created PatientJSONResponse object
+02/28/2020 02:44:14 PM Field given is in list format, returning Isabella
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'James', 'address': '1002 TestyTest Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:44:14 PM Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}
+02/28/2020 02:44:14 PM Created PatientJSONResponse object

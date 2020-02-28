@@ -1,15 +1,8 @@
-from xml.etree import ElementTree
-import xml.etree.ElementTree as ET
-import csv
-import pandas as pd
-import HTTPRequestClass as http
-import ParserClass as parser
-import ResponsesFromFiles as responses
-import requests
+import ResponsesFromFiles as FileResponder
 import json
-import urllib
 import logging
-import time
+logging.basicConfig(filename='logs.txt', format='%(asctime)s %(message)s',
+                    datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
 
 class PatientJSONResponse:
     def __init__(self, response=None):
@@ -20,8 +13,10 @@ class PatientJSONResponse:
                 self.response = response
                 self.entries = self.getPatientEntriesFromResponse(response)
                 self.patientDictionaries = self.getDictFromEntries()
+                logging.info("Created PatientJSONResponse object")
+                logging.debug('patientDictionaries: %s', self.patientDictionaries)
             except:
-                print("Failed to extract patient entries, dictionaries!")
+                logging.error("Could not initialize PatientJSONResponse!")
 
     def setResponse(self, resp):
         self.response = resp
@@ -63,15 +58,15 @@ class PatientJSONResponse:
             d['given'] = nameList[1]['given'][0]
             d['family'] = nameList[0]['family']
         except:
-            print("Failed parsing patient names from resource!", nameList)
-            print("Resource: ", resource)
+            logging.error("Failed to parse names from resource")
+            logging.error("nameList: %s", nameList)
         #get street address
         try:
             address = resource['address'][0]['line'][0]
             d['address'] = address
         except:
-            print("Failed parsing address from resource!", address)
-            print("Resource", resource)
+            logging.error("Failed to parse address from resource")
+            logging.error("address: %s", address)
         #Get DOB, Gender
         try:
             dob = resource['birthDate']
@@ -79,8 +74,9 @@ class PatientJSONResponse:
             gender = resource['gender']
             d['gender'] = gender
         except:
-            print("Failed parsing birthDate, Gender", dob, gender)
-            print("Resource", resource)
+            logging.error("Failed parsing birthDate, Gender")
+            logging.error("birthDate: %s, gender %s",dob, gender)
+        logging.info("Parsed resource from response into dict %s", d)
         return d
 
     def printPatientDictionaries(self):
@@ -96,8 +92,8 @@ class PatientJSONResponse:
 def createPatientJSONResponse(response):
     return PatientJSONResponse(response)
 
-#fileName = 'IsabellaJones-ReferralSummary.xml'
-#lookupIds = ['given', 'family']
-#IsabellaResponse = responses.getPatientGETResponseFromDemographicsFile(fileName, lookupIds)
-#JSON = createPatientJSONResponse(IsabellaResponse)
+fileName = 'IsabellaJones-ReferralSummary.xml'
+lookupIds = ['given', 'family']
+IsabellaResponse = FileResponder.getPatientGETResponseFromDemographicsFile(fileName, lookupIds)
+JSON = createPatientJSONResponse(IsabellaResponse)
 #JSON.printPatientDictionaries()

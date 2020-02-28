@@ -1,18 +1,10 @@
-from xml.etree import ElementTree
-import xml.etree.ElementTree as ET
-import csv
-import pandas as pd
 import HTTPRequestClass as http
 import ParserClass as parser
-import ResponsesFromFiles as responses
 import JSONResponseClass as jsonResponse
-import requests
-import json
-import urllib
-import logging
 import time
 
-payload = {
+def testPOST():
+    payload = {
         "resourceType": "Patient",
         "id": "siimisabella",
         "identifier": [
@@ -29,7 +21,7 @@ payload = {
         "name": [
           {
             "use": "official",
-            "family": "Jones",
+            "family": "HELLO WORLD",
             "given": [
               "Isabella"
             ]
@@ -47,18 +39,18 @@ payload = {
           },
           {
             "system": "phone",
-            "value": "(123) 123 1234",
+            "value": "(123) 123 1256",
             "use": "work"
           }
         ],
         "gender": "female",
-        "birthDate": "1963-04-24",
+        "birthDate": "1954-03-23",
         "deceasedBoolean": "false",
         "address": [
           {
             "use": "home",
             "line": [
-              "1002 Healthcare Dr"
+              "1002 Healthcare Dr."
             ],
             "city": "Beaverton",
             "state": "OR",
@@ -104,46 +96,49 @@ payload = {
         }
     }
 
-print("POSTING PAYLOAD ... ")
-time.sleep(2)
-
-isabellaPost = http.createDefaultPatientPOSTRequest()
-isabellaPost.setPayload(payload)
-response = isabellaPost.executeRequest()
-
-#isabellaPostResponse = responses.getPOSTPayloadToSIIMPatient(payload)
-
-print("ENDPOINT REQUESTED: ", isabellaPost.getFullURL())
-print("RESPONSE RETURNED: ", response.status_code)
-print("DATA POSTED: ")
-time.sleep(3)
-print(response.text)
-
-time.sleep(3)
-print("GETTING PAYLOAD: ")
-time.sleep(1)
-
-isabellaRequest = http.createDefaultPatientGETRequest()
-isabellaDemographics = parser.Demographics('IsabellaJones-ReferralSummary.xml')
-isabellaLookupIds = {'given' : isabellaDemographics.getFieldFromDict('given')}
-isabellaRequest.setIdentifiersDict(isabellaLookupIds)
-response = isabellaRequest.executeRequest()
-JSONResponse = jsonResponse.createPatientJSONResponse(response)
+    ##TESTING PAYLOAD Posting
+    print("POSTING PAYLOAD ... ")
+    time.sleep(2)
 
 
-#fileName = 'IsabellaJones-ReferralSummary.xml'
-#lookupIds = ['given', 'family']
-#IsabellaResponse = responses.getPatientGETResponseFromDemographicsFile(fileName, lookupIds)
 
-print("FILE REQUESTED: ", 'IsabellaJones-ReferralSummary.xml')
-time.sleep(2)
-print("ENDPOINT REQUESTED: ", isabellaRequest.getFullURL())
-print("GET RETURNED: ",response.status_code)
-time.sleep(3)
-print("DATA RECEIVED: ", response.text)
-print("TOTAL NUMBER OF ENTRIES: ", JSONResponse.getNumberOfPatientEntries())
-time.sleep(4)
+    isabellaPost = http.createDefaultPatientPOSTRequest()
+    isabellaPost.setPayload(payload)
+    response = isabellaPost.executeRequest()
 
-print("PATIENT FIELDS FROM GET RESPONSE")
-JSONResponse.printPatientDictionaries()
 
+
+    print("ENDPOINT REQUESTED: ", isabellaPost.getFullURL())
+    print("RESPONSE RETURNED: ", response.status_code)
+    print("DATA POSTED: ")
+    time.sleep(2)
+    print(response.text)
+
+    ##TESTING Parsing local file --> GET request to SIIM Server based on specified 'given' (first name) parameter
+    ##from CCD file --> Print dictionaries generated for each entry our GET response returned
+def testGETPayloadFromFile():
+    print("GETTING PAYLOAD: ")
+    time.sleep(1)
+
+    isabellaRequest = http.createDefaultPatientGETRequest()
+    isabellaDemographics = parser.Demographics('IsabellaJones-ReferralSummary.xml')
+    isabellaLookupIds = {'given' : isabellaDemographics.getFieldFromDict('given')}
+    isabellaRequest.setIdentifiersDict(isabellaLookupIds)
+    response = isabellaRequest.executeRequest()
+    JSONResponse = jsonResponse.createPatientJSONResponse(response)
+
+
+    print("FILE REQUESTED: ", 'IsabellaJones-ReferralSummary.xml')
+    time.sleep(1)
+    print("ENDPOINT REQUESTED: ", isabellaRequest.getFullURL())
+    print("GET RETURNED: ",response.status_code)
+    time.sleep(2)
+    print("DATA RECEIVED: ", response.text)
+    print("TOTAL NUMBER OF ENTRIES: ", JSONResponse.getNumberOfPatientEntries())
+    time.sleep(2)
+    print("PATIENT FIELDS FROM GET RESPONSE")
+
+    JSONResponse.printPatientDictionaries()
+
+testPOST()
+testGETPayloadFromFile()

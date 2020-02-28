@@ -1,19 +1,15 @@
-from xml.etree import ElementTree
-import xml.etree.ElementTree as ET
-import csv
-import pandas as pd
 import HTTPRequestClass as http
 import ParserClass as parser
-import requests
-import json
-import urllib
+import JSONResponseClass as JSON
 import logging
-import time
+logging.basicConfig(filename='logs.txt', format='%(asctime)s %(message)s',
+                    datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
 
 #GETSIIMResponseFromDemographicsFile(String filepath, List identifierList): Parses file, GET call to Patient resource
 #with identifier parameters
     #identifierList: ex) {given, family, address} --> GET http://hackathon.../Patient/?given= &family= &address=
 def getPatientGETResponseFromDemographicsFile(filepath, identifierList):
+    logging.info("In getPatientGETResponseFromDemographicsFile class")
     idList = {}
     tempRequest = http.createDefaultPatientGETRequest()
     tempDemographics = parser.Demographics(filepath)
@@ -21,14 +17,27 @@ def getPatientGETResponseFromDemographicsFile(filepath, identifierList):
         for id in identifierList:
             idList.update({id : tempDemographics.getFieldFromDict(id)})
             #print(id, tempDemographics.getFieldFromDict(id))
+        logging.info("Parsed identifiers from file Demographics object")
     except:
+        logging.ERROR("Could not parse demographics!")
         print("Parser lookup failed!")
     tempRequest.setIdentifiersDict(idList)
     response = tempRequest.executeRequest()
     return response
+
 
 def getPOSTPayloadToSIIMPatient(payload):
     tempRequest = http.createDefaultPatientPOSTRequest()
     tempRequest.setPayload(payload)
     response = tempRequest.executeRequest()
     return response
+
+
+def getServerJSONDemographicObjectFromFilepath(path, ids):
+    try:
+        response = getPatientGETResponseFromDemographicsFile(path, ids)
+        PatientsJSON = JSON.createPatientJSONResponse(response)
+        return PatientsJSON
+    except:
+        print("Error generating response!")
+
