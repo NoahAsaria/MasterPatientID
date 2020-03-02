@@ -2,8 +2,9 @@ import xml.etree.ElementTree as ET
 import csv
 import pandas as pd
 import logging
-logging.basicConfig(filename='logs.txt', format='%(asctime)s %(message)s',
-                    datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
+logFormat = '%(asctime)s: %(levelname)s: %(message)s @ %(filename)s : %(funcName)s: --> line %(lineno)d'
+logging.basicConfig(filename='logs/log.txt', format=logFormat,
+                    datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
 
 
 class Demographics:
@@ -19,7 +20,9 @@ class Demographics:
             logging.debug("Demographics dictionary parsed: %s", self.demographicDict)
 
     def setFilePath(self, path):
+        logging.debug("File path passed in: %s", path)
         self.filepath = path
+        logging.info("Set filepath")
 
     def getFilePath(self):
         return self.filepath

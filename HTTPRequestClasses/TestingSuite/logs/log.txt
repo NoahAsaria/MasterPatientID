@@ -1,0 +1,227 @@
+02/28/2020 06:16:07 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:16:07 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:16:07 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:16:07 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:16:07 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:16:07 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:16:07 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:16:07 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:16:07 PM: WARNING: Contructed a new URL @ HTTPRequestClass.py : __init__: --> line 35
+02/28/2020 06:16:07 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:16:07 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:16:07 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:16:07 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:16:07 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:16:07 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:16:07 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 40
+02/28/2020 06:16:07 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 47
+02/28/2020 06:16:07 PM: INFO: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 60
+02/28/2020 06:17:08 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:17:08 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:17:08 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:17:08 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:17:08 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:17:08 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:17:08 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:17:08 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:17:08 PM: WARNING: Contructed a new URL @ HTTPRequestClass.py : __init__: --> line 35
+02/28/2020 06:17:08 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:17:08 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:17:08 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:17:08 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:17:08 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:17:08 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:17:08 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 40
+02/28/2020 06:17:08 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 47
+02/28/2020 06:17:08 PM: INFO: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 60
+02/28/2020 06:17:33 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:17:33 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:17:33 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:17:33 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:17:33 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 99
+02/28/2020 06:17:33 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:17:33 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 112
+02/28/2020 06:17:33 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 114
+02/28/2020 06:17:33 PM: WARNING: Contructed a new URL @ HTTPRequestClass.py : __init__: --> line 35
+02/28/2020 06:17:33 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:17:33 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:17:33 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 99
+02/28/2020 06:17:33 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:17:33 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 112
+02/28/2020 06:17:33 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 114
+02/28/2020 06:17:33 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 40
+02/28/2020 06:17:33 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 47
+02/28/2020 06:17:33 PM: INFO: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 60
+02/28/2020 06:19:53 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:19:53 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:19:53 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:19:53 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:19:53 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:19:53 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:19:53 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:19:53 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:19:53 PM: WARNING: Contructed a new URL @ HTTPRequestClass.py : __init__: --> line 35
+02/28/2020 06:19:53 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:19:53 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:19:53 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:19:53 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:19:53 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:19:53 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:19:53 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 40
+02/28/2020 06:19:53 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 47
+02/28/2020 06:19:53 PM: DEBUG: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 60
+02/28/2020 06:19:53 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:19:53 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:19:53 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:19:53 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 101
+02/28/2020 06:19:53 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 101
+02/28/2020 06:19:53 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:19:53 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 107
+02/28/2020 06:19:53 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:19:53 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:19:53 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:19:53 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:19:53 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 101
+02/28/2020 06:19:53 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 101
+02/28/2020 06:19:53 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:19:53 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 107
+02/28/2020 06:19:53 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:19:53 PM: INFO: Lowercase request type parameter: get @ HTTPRequestClass.py : executeRequest: --> line 139
+02/28/2020 06:19:53 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 144
+02/28/2020 06:19:53 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:19:53 PM: DEBUG: http://hackathon.siim.org:80 "GET /fhir/Patient/?gender=male&_id=siimjoe HTTP/1.1" 200 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:19:53 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 147
+02/28/2020 06:23:43 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+02/28/2020 06:23:43 PM: DEBUG: No resource specified as argument @ HTTPRequestClass.py : __init__: --> line 22
+02/28/2020 06:23:43 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:23:43 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:23:43 PM: DEBUG: api endpoint:  , resource:  @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:43 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:43 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:43 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:23:43 PM: DEBUG: New Url after removing trailing characters // @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:23:43 PM: DEBUG: url returned // @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:43 PM: DEBUG: full url after initialization: // @ HTTPRequestClass.py : __init__: --> line 38
+02/28/2020 06:23:43 PM: INFO: After initialization, toString(): apiEndpoint=, requestType=GET, resource=, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+02/28/2020 06:23:43 PM: DEBUG: In set API Endpoint: http://hackathon.siim.org/fhir @ HTTPRequestClass.py : setApiEndpoint: --> line 42
+02/28/2020 06:23:43 PM: DEBUG: New endpoint: http://hackathon.siim.org/fhir @ HTTPRequestClass.py : setApiEndpoint: --> line 44
+02/28/2020 06:23:43 PM: DEBUG: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 59
+02/28/2020 06:23:43 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+02/28/2020 06:23:43 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:43 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:43 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:43 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:43 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:43 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+02/28/2020 06:23:43 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:23:43 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:43 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:43 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:43 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:43 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:43 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:43 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+02/28/2020 06:23:43 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:23:43 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:43 PM: INFO: Lowercase request type parameter: get @ HTTPRequestClass.py : executeRequest: --> line 136
+02/28/2020 06:23:43 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+02/28/2020 06:23:43 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:23:43 PM: DEBUG: http://hackathon.siim.org:80 "GET /fhir/Patient/?gender=male&_id=siimjoe HTTP/1.1" 200 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:23:43 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 144
+02/28/2020 06:23:47 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+02/28/2020 06:23:47 PM: DEBUG: No resource specified as argument @ HTTPRequestClass.py : __init__: --> line 22
+02/28/2020 06:23:47 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:23:47 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:23:47 PM: DEBUG: api endpoint:  , resource:  @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:47 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:47 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:23:47 PM: DEBUG: New Url after removing trailing characters // @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:23:47 PM: DEBUG: url returned // @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:47 PM: DEBUG: full url after initialization: // @ HTTPRequestClass.py : __init__: --> line 38
+02/28/2020 06:23:47 PM: INFO: After initialization, toString(): apiEndpoint=, requestType=POST, resource=, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+02/28/2020 06:23:47 PM: DEBUG: In set API Endpoint: http://hackathon.siim.org/fhir @ HTTPRequestClass.py : setApiEndpoint: --> line 42
+02/28/2020 06:23:47 PM: DEBUG: New endpoint: http://hackathon.siim.org/fhir @ HTTPRequestClass.py : setApiEndpoint: --> line 44
+02/28/2020 06:23:47 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+02/28/2020 06:23:47 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:47 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:47 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:23:47 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:23:47 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:47 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:47 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:47 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:23:47 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:23:47 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:47 PM: INFO: Lowercase request type parameter: post @ HTTPRequestClass.py : executeRequest: --> line 136
+02/28/2020 06:23:47 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+02/28/2020 06:23:47 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:23:47 PM: DEBUG: http://hackathon.siim.org:80 "POST /fhir/Patient/ HTTP/1.1" 201 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:23:47 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 148
+02/28/2020 06:23:54 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:23:54 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:23:54 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:54 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:54 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:54 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:23:54 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:23:54 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:54 PM: DEBUG: full url after initialization: http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : __init__: --> line 38
+02/28/2020 06:23:54 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+02/28/2020 06:23:54 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+02/28/2020 06:23:54 PM: DEBUG: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 59
+02/28/2020 06:23:54 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:54 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:54 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:54 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:54 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:54 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+02/28/2020 06:23:54 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:23:54 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:54 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:54 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:54 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:54 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:54 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:54 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+02/28/2020 06:23:54 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:23:54 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:54 PM: INFO: Lowercase request type parameter: get @ HTTPRequestClass.py : executeRequest: --> line 136
+02/28/2020 06:23:54 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+02/28/2020 06:23:54 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:23:54 PM: DEBUG: http://hackathon.siim.org:80 "GET /fhir/Patient/?gender=male&_id=siimjoe HTTP/1.1" 200 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:23:54 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 144
+02/28/2020 06:24:12 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:24:12 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:24:12 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:24:12 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:24:12 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:24:12 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:24:12 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:24:12 PM: DEBUG: full url after initialization: http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : __init__: --> line 38
+02/28/2020 06:24:12 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=POST, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+02/28/2020 06:24:12 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+02/28/2020 06:24:12 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:24:12 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:24:12 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:24:12 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:24:12 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:24:12 PM: INFO: Lowercase request type parameter: post @ HTTPRequestClass.py : executeRequest: --> line 136
+02/28/2020 06:24:12 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+02/28/2020 06:24:12 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:24:12 PM: DEBUG: http://hackathon.siim.org:80 "POST /fhir/Patient/ HTTP/1.1" 201 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:24:12 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 148
+02/28/2020 06:24:12 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:24:12 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:24:12 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:24:12 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:24:12 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:24:12 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:24:12 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:24:12 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:24:12 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:24:12 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:24:12 PM: INFO: Lowercase request type parameter: post @ HTTPRequestClass.py : executeRequest: --> line 136
+02/28/2020 06:24:12 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+02/28/2020 06:24:12 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:24:12 PM: DEBUG: http://hackathon.siim.org:80 "POST /fhir/Patient/ HTTP/1.1" 201 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:24:12 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 148

@@ -1,6 +1,7 @@
 import HTTPRequestClass as http
 import ParserClass as parser
 import JSONResponseClass as jsonResponse
+#from os import path
 import time
 
 def testPOST():
@@ -95,49 +96,21 @@ def testPOST():
           "reference": "Organization/siim"
         }
     }
-
-    ##TESTING PAYLOAD Posting
-    print("POSTING PAYLOAD ... ")
-    time.sleep(2)
-
-
-
     isabellaPost = http.createDefaultPatientPOSTRequest()
     isabellaPost.setPayload(payload)
     response = isabellaPost.executeRequest()
-
-
-
-    print("ENDPOINT REQUESTED: ", isabellaPost.getFullURL())
-    print("RESPONSE RETURNED: ", response.status_code)
-    print("DATA POSTED: ")
-    time.sleep(2)
     print(response.text)
 
     ##TESTING Parsing local file --> GET request to SIIM Server based on specified 'given' (first name) parameter
     ##from CCD file --> Print dictionaries generated for each entry our GET response returned
 def testGETPayloadFromFile():
-    print("GETTING PAYLOAD: ")
-    time.sleep(1)
-
+    file_path = "IsabellaJones-ReferralSummary.xml"
     isabellaRequest = http.createDefaultPatientGETRequest()
-    isabellaDemographics = parser.Demographics('IsabellaJones-ReferralSummary.xml')
+    isabellaDemographics = parser.Demographics(file_path)
     isabellaLookupIds = {'given' : isabellaDemographics.getFieldFromDict('given')}
     isabellaRequest.setIdentifiersDict(isabellaLookupIds)
     response = isabellaRequest.executeRequest()
     JSONResponse = jsonResponse.createPatientJSONResponse(response)
-
-
-    print("FILE REQUESTED: ", 'IsabellaJones-ReferralSummary.xml')
-    time.sleep(1)
-    print("ENDPOINT REQUESTED: ", isabellaRequest.getFullURL())
-    print("GET RETURNED: ",response.status_code)
-    time.sleep(2)
-    print("DATA RECEIVED: ", response.text)
-    print("TOTAL NUMBER OF ENTRIES: ", JSONResponse.getNumberOfPatientEntries())
-    time.sleep(2)
-    print("PATIENT FIELDS FROM GET RESPONSE")
-
     JSONResponse.printPatientDictionaries()
 
 testPOST()
