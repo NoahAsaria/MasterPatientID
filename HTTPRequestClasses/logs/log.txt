@@ -559,3 +559,36 @@ DEBUG: gender parsed: female @ 02/28/2020 05:37:21 PM: JSONResponseClass.py : pa
 DEBUG: Parsed resource from response into dict {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'} @ 02/28/2020 05:37:21 PM: JSONResponseClass.py : parseResource: --> line 92
 INFO: Created PatientJSONResponse object @ 02/28/2020 05:37:21 PM: JSONResponseClass.py : __init__: --> line 18
 DEBUG: patientDictionaries: {'73': {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}, '75': {'given': 'Isabella', 'family': 'James', 'address': '1002 TestyTest Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '76': {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}, '77': {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}, '78': {'given': 'Isabella', 'family': 'Jones', 'address': '1002 Healthcare Dr', 'DOB': '1963-04-24', 'gender': 'female'}, '79': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '80': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '81': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '82': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '83': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '84': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '85': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '86': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '87': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '88': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '89': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '90': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '91': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '92': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}, '93': {'given': 'Isabella', 'family': 'HELLO WORLD', 'address': '1002 Healthcare Dr.', 'DOB': '1954-03-23', 'gender': 'female'}} @ 02/28/2020 05:37:21 PM: JSONResponseClass.py : __init__: --> line 19
+03/09/2020 07:12:28 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:12:28 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:16:03 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:16:03 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:16:54 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:16:54 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:17:00 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:17:01 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:17:01 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 11:23:56 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:23:57 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:23:57 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 23
+03/09/2020 11:25:18 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:25:18 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 23
+03/09/2020 11:27:08 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:27:08 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 23
+03/09/2020 11:27:08 PM: ERROR: FAILED TO PRINT Patient Entries @ JSONResponseClass.py : printPatientDictionaries: --> line 112
+03/09/2020 11:28:24 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:28:24 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 24
+03/09/2020 11:28:24 PM: ERROR: FAILED TO PRINT Patient Entries @ JSONResponseClass.py : printPatientDictionaries: --> line 113
+03/09/2020 11:28:54 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:28:54 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 24
+03/09/2020 11:28:54 PM: ERROR: FAILED TO PRINT Patient Entries @ JSONResponseClass.py : printPatientDictionaries: --> line 110
+03/09/2020 11:29:19 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:29:19 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:29:20 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 24
+03/09/2020 11:29:20 PM: ERROR: FAILED TO PRINT Patient Entries @ JSONResponseClass.py : printPatientDictionaries: --> line 110
+03/10/2020 12:13:26 AM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/10/2020 12:13:26 AM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/10/2020 12:13:26 AM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/10/2020 12:14:07 AM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/10/2020 12:14:08 AM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/10/2020 12:14:08 AM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52

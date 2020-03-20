@@ -12,9 +12,11 @@ class PatientJSONResponse:
             logging.info("No response passed as argument.")
         else:
             try:
+                logging.debug("response passed: ", response)
                 self.response = response
                 self.entries = self.getPatientEntriesFromResponse(response)
                 self.patientDictionaries = self.getDictFromEntries()
+
                 logging.info("Created PatientJSONResponse object")
                 logging.debug('patientDictionaries: %s', self.patientDictionaries)
             except:
@@ -41,8 +43,13 @@ class PatientJSONResponse:
         return self.patientDictionaries
 
     def getPatientEntriesFromResponse(self, response):
-        json_data = json.loads(response.text)
-        entries = json_data['entry']
+        entries=''
+        try:
+            json_data = json.loads(response.text)
+            entries = json_data['entry']
+            logging.DEBUG("Entry: ", entries)
+        except:
+            logging.error("Could not parse entries from JSON response")
         return entries
 
     def printEntries(self):
@@ -51,11 +58,16 @@ class PatientJSONResponse:
 
     def getDictFromEntries(self):
         dict = {}
-        patients = self.entries
-        for patient in patients:
-            resource = patient['resource']
-            id = resource['id']
-            dict[id] = self.parseResource(resource)
+        patients = self.getPatientEntries()
+        logging.debug("Patients: ", patients)
+        try:
+            for patient in patients:
+                resource = patient['resource']
+                id = resource['id']
+                dict[id] = self.parseResource(resource)
+        except:
+            logging.error("Failed parsing patient dictionary from entries")
+            print("ERROR: getDictFromEntries failed")
         return dict
 
     def parseResource(self, resource):
@@ -90,14 +102,17 @@ class PatientJSONResponse:
             logging.error("Failed parsing birthDate, Gender")
             logging.error("birthDate: %s, gender %s",dob, gender)
         logging.debug("Parsed resource from response into dict %s", d)
+        print("parseResource:" ,d)
         return d
 
     def printPatientDictionaries(self):
-        print(self.patientDictionaries)
-        for id, info in self.patientDictionaries.items():
-            print("\nID: ", id)
-            for field in info:
-                print(field + ":", info[field])
+        try:
+            for id, info in self.patientDictionaries.items():
+                print("\nID: ", id)
+                for field in info:
+                    print(field + ":", info[field])
+        except:
+            logging.error("FAILED TO PRINT Patient Entries")
 
 
 

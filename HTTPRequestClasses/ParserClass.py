@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import csv
 import pandas as pd
 import logging
+import pathlib
 logFormat = '%(asctime)s: %(levelname)s: %(message)s @ %(filename)s : %(funcName)s: --> line %(lineno)d'
 logging.basicConfig(filename='logs/log.txt', format=logFormat,
                     datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
@@ -28,10 +29,20 @@ class Demographics:
         return self.filepath
 
     def getRoot(self):
-        tree = ET.parse(self.filepath)
-        root = tree.getroot()
-        logging.debug("Root parsed: %s", root)
-        return root
+        try:
+            fileType = pathlib.Path(self.filepath).suffix.lower()
+            logging.debug("filetype: ", fileType)
+            if (fileType == '.xml' or fileType == '.ccd'):
+                tree = ET.parse(self.filepath)
+                root = tree.getroot()
+                logging.debug("Root parsed: %s", root)
+                return root
+            else:
+                logging.error("File-type must be .XML or .CCD! Given: ", fileType)
+        except:
+            logging.ERROR("Unable to parse root!")
+        return 0
+
 
     def writeToCSV(self):
         root = self.getRoot(self.filepath)
@@ -46,36 +57,40 @@ class Demographics:
         return 'demographic.csv'
 
     def getDemographicDict(self):
-        names = {}
-        root1 = self.root
-        for name in root1.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}given'):
-            names.setdefault('given', []).append(name.text)
-        #Parse last name(s)
-        for name in root1.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}family'):
-            names.setdefault('family', []).append(name.text)
-        #Parse addresses
-        for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}streetAddressLine'):
-            names.setdefault('address', []).append(name.text)
-        #Parse city
-        for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}city'):
-            names.setdefault('city', []).append(name.text)
-        #Parse state
-        for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}state'):
-            names.setdefault('state', []).append(name.text)
-        #Parse postal code
-        for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}postalCode'):
-            names.setdefault('postalcode', []).append(name.text)
-        #Parse birthTime
-        birth = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}birthTime')
-        names['birthtime'] = birth.attrib["value"]
-        #Parse gender
-        gender = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}administrativeGenderCode')
-        names['gender'] = gender.attrib["code"]
-        #Parse race
-        race = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}raceCode')
-        names['race'] = race.attrib["displayName"]
-        return names
-
+        print(self.getRoot())
+        try:
+            names = {}
+            root1 = self.root
+            for name in root1.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}given'):
+                names.setdefault('given', []).append(name.text)
+            #Parse last name(s)
+            for name in root1.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}family'):
+                names.setdefault('family', []).append(name.text)
+            #Parse addresses
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}streetAddressLine'):
+                names.setdefault('address', []).append(name.text)
+            #Parse city
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}city'):
+                names.setdefault('city', []).append(name.text)
+            #Parse state
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}state'):
+                names.setdefault('state', []).append(name.text)
+            #Parse postal code
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}postalCode'):
+                names.setdefault('postalcode', []).append(name.text)
+            #Parse birthTime
+            birth = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}birthTime')
+            names['birthtime'] = birth.attrib["value"]
+            #Parse gender
+            gender = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}administrativeGenderCode')
+            names['gender'] = gender.attrib["code"]
+            #Parse race
+            race = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}raceCode')
+            names['race'] = race.attrib["displayName"]
+            return names
+        except:
+            logging.WARNING("Could not parse demographics dict!")
+        return 0
     def getListFromRoot(self):
         names = []
         root1 = self.root
@@ -153,3 +168,5 @@ class Demographics:
         except:
             logging.error("Can't find field in dict!")
 
+def createNewDemographicsInstance(filepath):
+    return Demographics(filepath)

@@ -4,7 +4,7 @@ import urllib
 import logging
 logFormat = '%(asctime)s: %(levelname)s: %(message)s @ %(filename)s : %(funcName)s: --> line %(lineno)d'
 logging.basicConfig(filename='logs/log.txt', format=logFormat,
-                    datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
+                    datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.WARNING)
 
 class HTTPRequest:
     def __init__(self, requestType=None, apiEndpoint=None, resource=None, headersDict=None, identifiersDict=None):
