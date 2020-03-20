@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1> <center>Master Patient ID</center></h1>
+	<hr></hr>
+	<h2>Attach a file below:</h2>
+<form method="post" enctype=multipart/form-data>
+    <input type="file" name="file"/>
+    <input type="submit" />
+</form>
+    {% if file_type == '.xml' %}
+        <h3>Successfully uploaded: {{file_name}} </h3>
+        <p> Demographics data parsed: {{demographics}} </p>
+    {% elif file_type == 'NA' %}
+        <h3>Please attach an XML file and try again!</h3>
+    {% else %}
+        <h4>Please attach an XML file and submit.</h4>
+    {% endif %}
+</body>
+</html>

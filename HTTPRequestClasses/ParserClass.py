@@ -26,21 +26,21 @@ class Demographics:
         logging.info("Set filepath")
 
     def getFilePath(self):
-        return self.filepath
+        return str(self.filepath)
 
     def getRoot(self):
         try:
-            fileType = pathlib.Path(self.filepath).suffix.lower()
+            fileType = pathlib.Path(self.getFilePath()).suffix.lower()
             logging.debug("filetype: ", fileType)
             if (fileType == '.xml' or fileType == '.ccd'):
-                tree = ET.parse(self.filepath)
+                tree = ET.parse(self.getFilePath())
                 root = tree.getroot()
                 logging.debug("Root parsed: %s", root)
                 return root
             else:
                 logging.error("File-type must be .XML or .CCD! Given: ", fileType)
         except:
-            logging.ERROR("Unable to parse root!")
+            logging.ERROR("Unable to parse root! -- filepath given: ", self.getFilePath())
         return 0
 
 

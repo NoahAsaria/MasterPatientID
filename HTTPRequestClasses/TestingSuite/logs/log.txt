@@ -469,3 +469,39 @@
 03/20/2020 10:11:26 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112e20d68> @ ParserClass.py : getRoot: --> line 38
 03/20/2020 10:11:26 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
 03/20/2020 10:11:26 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112e20d68> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113599ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135dd8b8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 12:56:47 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11361d958> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113599ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135b12c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135b12c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113584ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135c98b8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 12:56:55 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113609958> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113584ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11359c2c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11359c2c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11368fea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1136d38b8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 01:21:42 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113713958> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11368fea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1136a72c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1136a72c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b78ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111bbc8b8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 01:30:11 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111bfc958> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b78ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b902c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b902c8> @ ParserClass.py : getRoot: --> line 38
