@@ -57,7 +57,7 @@ class Demographics:
         return 'demographic.csv'
 
     def getDemographicDict(self):
-        print(self.getRoot())
+        #print(self.getRoot())
         try:
             names = {}
             root1 = self.root

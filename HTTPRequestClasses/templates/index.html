@@ -6,20 +6,37 @@
     <title></title>
 </head>
 <body>
-<h1> <center>Master Patient ID</center></h1>
+    <h1> <center>Master Patient ID</center></h1>
 	<hr></hr>
 	<h2>Attach a file below:</h2>
-<form method="post" enctype=multipart/form-data>
-    <input type="file" name="file"/>
-    <input type="submit" />
-</form>
+    <form method="post" enctype=multipart/form-data>
+        <input type="file" name="file"/>
+        <input type="submit" />
+    </form>
     {% if file_type == '.xml' %}
         <h3>Successfully uploaded: {{file_name}} </h3>
-        <p> Demographics data parsed: {{demographics}} </p>
-    {% elif file_type == 'NA' %}
-        <h3>Please attach an XML file and try again!</h3>
+        <h4>Select Parameters to query: </h4>
+        <form method="post">
+            <select id=" demographicSelectors" multiple="multiple" size="10" name="queryparams">
+                <option value="given:{{given}}" name="given">(First Name) {{given}} </option>
+                <option value="family:{{family}}" name="family">(Last Name) {{family}}</option>
+                <option value="gender:{{gender}}" name="gender">(Gender) {{gender}}</option>
+                <option value="race:{{race}}" name="race">(Race) {{race}}</option>
+                <option value="address:{{address}}" name="address">(Address) {{address}}</option>
+                <option value="city:{{city}}" name="city">(City) {{city}}</option>
+                <option value="state:{{state}}" name="state">(State) {{state}}</option>
+                <option value="postalcode:{{postalcode}}" name="postalcode">(Zip Code) {{postalcode}}</option>
+                <option value="birthtime:{{birthtime}}" name="birthtime">(Birthdate) {{birthtime}}</option>
+            </select>
+            <p></p>
+            <button type="submit" formmethod="post" name="query">Query SIIM Database</button>
+        </form>
+    {% elif file_type == 'N/A' %}
+        <h4>{{prompt}}</h4>
+    {% elif showResponse == 'True' %}
+        <h4>Number of matches found: {{numResults}} </h4>
+        <p>Results: {{responseText}}</p>
     {% else %}
-        <h4>Please attach an XML file and submit.</h4>
+        <p></p>
     {% endif %}
-</body>
 </html>
