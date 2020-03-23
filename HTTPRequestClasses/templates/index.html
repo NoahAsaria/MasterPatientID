@@ -22,10 +22,11 @@
         </form>
     </div>
     {% if file_type == '.xml' %}
-        <h3>Successfully uploaded: {{file_name}} </h3>
+    <p></p>
+    <p class="upload-success">Successfully uploaded: <strong>{{file_name}}</strong> </p>
         <h4>Select Parameters to query: </h4>
         <form method="post">
-            <select id=" demographicSelectors" multiple="multiple" size="10" name="queryparams">
+            <select id=" demographicSelectors" class="custom-select-list" multiple="multiple" size="10" name="queryparams">
                 <option value="given:{{given}}" name="given">(First Name) {{given}} </option>
                 <option value="family:{{family}}" name="family">(Last Name) {{family}}</option>
                 <option value="gender:{{gender}}" name="gender">(Gender) {{gender}}</option>
@@ -37,13 +38,13 @@
                 <option value="birthtime:{{birthtime}}" name="birthtime">(Birthdate) {{birthtime}}</option>
             </select>
             <p></p>
-            <button type="submit" formmethod="post" name="query">Query SIIM Database</button>
+            <button type="submit" formmethod="post" class="custom-submit-btn" name="query">Query SIIM Database</button>
         </form>
     {% elif file_type == 'N/A' %}
         <h4>{{prompt}}</h4>
     {% elif showResponse == 'True' %}
         <h4>Number of matches found: {{numResults}} </h4>
-        <p>Results: {{responseText}}</p>
+        <p class="results">Results: {{responseText}} </p>
     {% else %}
         <p></p>
     {% endif %}

@@ -69,6 +69,7 @@ def hello():
                 response = GETRequest.executeRequest()
                 JSONResponse = jsonResponse.createPatientJSONResponse(response)
                 text = JSONResponse.getPatientDictionaries()
+                print("text:", text)
                 entries = JSONResponse.getNumberOfPatientEntries()
             except:
                 print("ERROR!")

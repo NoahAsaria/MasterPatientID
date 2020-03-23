@@ -581,3 +581,16 @@
 03/22/2020 07:31:20 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
 03/22/2020 07:31:20 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113443e08> @ ParserClass.py : getRoot: --> line 38
 03/22/2020 07:31:20 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/23/2020 02:45:46 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/23/2020 02:45:46 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 02:45:47 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/23/2020 02:45:47 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 02:45:47 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 02:45:47 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 02:45:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 02:45:52 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/23/2020 02:45:57 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111c119a8> @ ParserClass.py : getRoot: --> line 39
+03/23/2020 02:45:57 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/23/2020 02:45:57 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 164
+03/23/2020 02:45:57 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111c55958> @ ParserClass.py : getRoot: --> line 39
+03/23/2020 02:45:57 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21

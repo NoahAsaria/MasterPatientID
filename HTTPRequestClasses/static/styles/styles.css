@@ -29,7 +29,6 @@ input[type="file"] {
     font-weight: bold;
     color: #FFF;
 }
-
 input[type=submit] {
     display: inline-block;
     border-radius: 1px;
@@ -41,6 +40,17 @@ option:hover {
     background-color: #ddd;
 }
 
+p.upload-success {
+    color: #4570F6;
+    font-family: Palatino;
+    display: inline;
+}
+
+.custom-select-list {
+    background-color: #F5F6FC;
+    padding: 2px 3px;
+    display: inline-block;
+}
 
 hr {
 	border-top: 1px dotted #000;
