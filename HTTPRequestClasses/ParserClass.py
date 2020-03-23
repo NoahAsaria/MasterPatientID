@@ -31,7 +31,8 @@ class Demographics:
     def getRoot(self):
         try:
             fileType = pathlib.Path(self.getFilePath()).suffix.lower()
-            logging.debug("filetype: ", fileType)
+            #print("FILE TYPE: ", fileType)
+            #logging.debug("filetype: ", fileType)
             if (fileType == '.xml' or fileType == '.ccd'):
                 tree = ET.parse(self.getFilePath())
                 root = tree.getroot()
@@ -45,12 +46,12 @@ class Demographics:
 
 
     def writeToCSV(self):
-        root = self.getRoot(self.filepath)
+        root = self.getRoot()
         DemographicsCSV = open('demographic.csv', 'w')
         csvwriter = csv.writer(DemographicsCSV)
         headers = ["First Name", "Last Name", "Street Address", "City", "State", "Zip", "DOB", "Gender", "Race"]
         csvwriter.writerow(headers)
-        infoList = self.getListFromRoot(root)
+        infoList = self.getListFromRoot()
         logging.debug("Wrote to CSV: %s", infoList)
         csvwriter.writerow(infoList)
         DemographicsCSV.close()

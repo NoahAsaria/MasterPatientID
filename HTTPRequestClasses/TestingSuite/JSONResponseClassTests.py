@@ -11,7 +11,7 @@ class MyTestCase(unittest.TestCase):
         response = GETRequest.executeRequest()
         JSONResponse = jsonResponse.createPatientJSONResponse(response)
 
-        dict = {'siimjoe': {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'DOB': '1926-03-30', 'gender': 'male'}}
+        dict = {'siimjoe': {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'DOB': '1926-03-30', 'gender': 'male', 'state': 'Vic', 'city': 'PleasantVille', 'postalCode': '3999'}}
         assert(JSONResponse.getPatientDictionaries() == dict)
         assert(JSONResponse.getNumberOfPatientEntries() == 1)
 

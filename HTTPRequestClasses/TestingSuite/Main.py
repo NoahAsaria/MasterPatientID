@@ -104,7 +104,7 @@ def testPOST():
     ##TESTING Parsing local file --> GET request to SIIM Server based on specified 'given' (first name) parameter
     ##from CCD file --> Print dictionaries generated for each entry our GET response returned
 def testGETPayloadFromFile():
-    file_path = "IsabellaJones-ReferralSummary.xml"
+    file_path = "TestFiles/IsabellaJones-ReferralSummary.xml"
     isabellaRequest = http.createDefaultPatientGETRequest()
     isabellaDemographics = parser.Demographics(file_path)
     isabellaLookupIds = {'given' : isabellaDemographics.getFieldFromDict('given')}

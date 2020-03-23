@@ -4014,3 +4014,530 @@ IsADirectoryError: [Errno 21] Is a directory: 'UploadedFiles/'
 03/22/2020 06:11:36 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
 03/22/2020 06:11:36 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:11:36] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
 03/22/2020 06:11:36 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:11:36] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:29:33 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/22/2020 06:29:33 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 06:29:33 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 06:29:33 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 06:29:33 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:29:33] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:29:33 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:29:33] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:29:50 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:29:50] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:29:50 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:29:50] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:29:58 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:29:58] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:29:58 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:29:58] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:30:15 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:30:15 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:30:15 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:30:15 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:30:15] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:30:15 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:30:15] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:30:26 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:30:26] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:30:26 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:30:26] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:31:06 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/22/2020 06:31:06 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 06:31:07 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 06:31:07 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 06:31:28 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/22/2020 06:31:28 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 06:31:29 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 06:31:29 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 06:31:30 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:31:30] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:31:30 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:31:30] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:31:37 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:31:37] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:31:37 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:31:37] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:31:44 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:31:44 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:31:44 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:31:44 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:31:44] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:31:44 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:31:44] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:31:54 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:31:54] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:31:54 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:31:54] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:31:58 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:31:58 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:31:58 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:31:58 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:31:58] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:31:58 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:31:58] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:32:04 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:32:04] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:32:04 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:32:04] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:34:06 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:34:06] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:34:06 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:34:06] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:34:09 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:34:09 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:34:10 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:34:10 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:34:10] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:34:10 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:34:10] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:34:15 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:34:15] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:34:15 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:34:15] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:34:18 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:34:18 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:34:18 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:34:18 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:34:18] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:34:18 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:34:18] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:35:28 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:35:28] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:35:28 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:35:28] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:36:20 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:36:20] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:36:20 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:36:20] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:36:48 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:36:48 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:36:51 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:36:51 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:36:51] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:36:51 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:36:51] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:39:27 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:39:27] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:39:27 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:39:27] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:40:32 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:40:32] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:40:32 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:40:32] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:40:41 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:40:41 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:40:42 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:40:42 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:40:42] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:40:42 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:40:42] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:40:53 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:40:53] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:40:53 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:40:53] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:40:56 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:40:56 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:40:56 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:40:56 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:40:56] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:40:56 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:40:56] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:50:34 PM: INFO:  * Detected change in '/Users/Noah/Documents/GitHub/MasterPatientID/HTTPRequestClasses/app.py', reloading @ _internal.py : _log: --> line 113
+03/22/2020 06:50:34 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 06:50:35 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 06:50:35 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 06:53:32 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:53:32] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:53:32 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:53:32] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:53:47 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:53:47] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:53:47 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:53:47] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:53:49 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:53:49 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:53:50 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:53:50 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:53:50] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:53:50 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:53:50] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:17 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:17] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:17 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:17] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:18 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:18] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:18 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:18] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:26 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/22/2020 06:54:26 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 06:54:27 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 06:54:27 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 06:54:29 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:29] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:29 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:29] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:29 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:29] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:29 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:29] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:35 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:35] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:35 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:35] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:37 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:54:37 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:54:37 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:54:37 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:37] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 06:54:37 PM: INFO: 127.0.0.1 - - [22/Mar/2020 18:54:37] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 07:02:32 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/22/2020 07:02:32 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 07:02:33 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 07:02:33 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 07:02:34 PM: INFO: 127.0.0.1 - - [22/Mar/2020 19:02:34] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 07:02:34 PM: INFO: 127.0.0.1 - - [22/Mar/2020 19:02:34] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 07:03:49 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/22/2020 07:03:49 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 07:03:50 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 07:03:50 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 07:03:50 PM: INFO: 127.0.0.1 - - [22/Mar/2020 19:03:50] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 07:03:50 PM: INFO: 127.0.0.1 - - [22/Mar/2020 19:03:50] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 07:08:26 PM: INFO:  * Detected change in '/Users/Noah/Documents/GitHub/MasterPatientID/HTTPRequestClasses/JSONResponseClass.py', reloading @ _internal.py : _log: --> line 113
+03/22/2020 07:08:26 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 07:08:27 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 07:08:27 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 07:08:31 PM: INFO:  * Detected change in '/Users/Noah/Documents/GitHub/MasterPatientID/HTTPRequestClasses/JSONResponseClass.py', reloading @ _internal.py : _log: --> line 113
+03/22/2020 07:08:31 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 07:08:32 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 07:08:32 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 07:08:38 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/22/2020 07:08:38 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 07:08:39 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 07:08:39 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 07:15:35 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/22/2020 07:15:35 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 07:15:35 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 07:15:35 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 07:16:41 PM: INFO:  * Detected change in '/Users/Noah/Documents/GitHub/MasterPatientID/HTTPRequestClasses/JSONResponseClass.py', reloading @ _internal.py : _log: --> line 113
+03/22/2020 07:16:41 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 07:16:42 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 07:16:42 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 07:17:03 PM: INFO:  * Detected change in '/Users/Noah/Documents/GitHub/MasterPatientID/HTTPRequestClasses/JSONResponseClass.py', reloading @ _internal.py : _log: --> line 113
+03/22/2020 07:17:03 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 07:17:04 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 07:17:04 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 07:17:10 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/22/2020 07:17:10 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 07:17:11 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 07:17:11 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 07:17:14 PM: INFO: 127.0.0.1 - - [22/Mar/2020 19:17:14] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 07:17:14 PM: INFO: 127.0.0.1 - - [22/Mar/2020 19:17:14] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 07:17:23 PM: INFO: 127.0.0.1 - - [22/Mar/2020 19:17:23] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 07:17:23 PM: INFO: 127.0.0.1 - - [22/Mar/2020 19:17:23] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 07:17:25 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 07:17:25 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:17:25 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:17:25 PM: INFO: 127.0.0.1 - - [22/Mar/2020 19:17:25] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/22/2020 07:17:25 PM: INFO: 127.0.0.1 - - [22/Mar/2020 19:17:25] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/22/2020 07:26:31 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/22/2020 07:26:31 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/22/2020 07:26:31 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/22/2020 07:26:31 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/22/2020 07:26:44 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1017479f8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:26:44 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:27:41 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1177271d8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:27:41 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:28:40 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x117ff01d8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:28:40 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:29:13 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1017479f8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:29:13 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:29:29 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x117eed1d8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:29:29 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:30:38 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x117cf71d8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:30:38 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:30:38 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x117d94cc8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:30:38 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 151
+03/22/2020 07:30:38 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 54
+03/22/2020 07:31:27 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1017479f8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:31:27 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:31:27 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x116f8cc28> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:31:27 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 151
+03/22/2020 07:31:27 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 54
+03/22/2020 07:31:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1017479f8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:31:42 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:31:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11688bc28> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:31:42 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 151
+03/22/2020 07:31:42 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 54
+03/22/2020 07:32:08 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x117eed1d8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:32:08 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:32:08 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x117f8ad18> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:32:08 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 152
+03/22/2020 07:32:08 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 54
+03/22/2020 07:33:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x117deb1d8> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:33:11 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:33:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x117e88cc8> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:33:11 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 152
+03/22/2020 07:33:11 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 55
+03/22/2020 07:36:15 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1017479f8> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:36:15 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:36:15 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11648bb38> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:36:15 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 152
+03/22/2020 07:36:15 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 55
+03/22/2020 07:36:24 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1031479f8> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:36:24 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:36:24 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x117f95b88> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:36:24 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 152
+03/22/2020 07:36:24 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 55
+03/22/2020 07:36:33 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1028479f8> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:36:33 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:36:33 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x117d60b88> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:36:33 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 152
+03/22/2020 07:36:33 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 55
+03/22/2020 07:36:39 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1017479f8> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:36:39 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:36:39 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x116e5aae8> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:36:39 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 152
+03/22/2020 07:36:39 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 55
+03/22/2020 07:36:54 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1028479f8> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:36:54 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:36:54 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x115c56b88> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:36:54 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 152
+03/22/2020 07:36:54 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 55
+03/22/2020 07:37:20 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1028479f8> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:37:20 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:37:20 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11805fb88> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:37:20 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 152
+03/22/2020 07:37:20 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 55
+03/22/2020 07:37:35 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1017479f8> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:37:35 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:37:35 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x116459b88> @ ParserClass.py : getRoot: --> line 39
+03/22/2020 07:37:35 PM: DEBUG: dictionary parsed from file TestingSuite/TestFiles/IsabellaJones-ReferralSummary.xml: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : getListFromRoot: --> line 152
+03/22/2020 07:37:35 PM: DEBUG: Wrote to CSV: ['Isabella', 'Jones', 'No Address Indicated', 'No City Indicated', 'CA', '99999', '19470501', 'F', 'Caucasian or European American'] @ ParserClass.py : writeToCSV: --> line 55
+03/23/2020 11:53:18 AM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 11:53:18 AM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 11:53:18 AM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 11:53:18 AM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/23/2020 11:53:21 AM: INFO: 127.0.0.1 - - [23/Mar/2020 11:53:21] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 11:53:21 AM: INFO: 127.0.0.1 - - [23/Mar/2020 11:53:21] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 11:53:31 AM: INFO: 127.0.0.1 - - [23/Mar/2020 11:53:31] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 11:53:31 AM: INFO: 127.0.0.1 - - [23/Mar/2020 11:53:31] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 11:53:36 AM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/23/2020 11:53:36 AM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 11:53:36 AM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/23/2020 11:53:36 AM: INFO: 127.0.0.1 - - [23/Mar/2020 11:53:36] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 11:53:37 AM: INFO: 127.0.0.1 - - [23/Mar/2020 11:53:37] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 11:53:55 AM: INFO: 127.0.0.1 - - [23/Mar/2020 11:53:55] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 11:53:55 AM: INFO: 127.0.0.1 - - [23/Mar/2020 11:53:55] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:02:14 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:02:14] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:02:14 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:02:14] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:02:26 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/23/2020 01:02:26 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 01:02:27 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/23/2020 01:02:27 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:02:27] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:02:27 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:02:27] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:02:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:02:41] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:02:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:02:41] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:02:44 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/23/2020 01:02:44 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 01:02:44 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/23/2020 01:02:44 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:02:44] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:02:44 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:02:44] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:27:58 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:27:58 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:27:59 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:27:59 PM: INFO:  * Debugger PIN: 323-732-113 @ _internal.py : _log: --> line 113
+03/23/2020 01:28:08 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:28:08] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:28:08 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:28:08] "[33mGET /styles.css HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:31:38 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:31:38 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:31:39 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:31:39 PM: INFO:  * Debugger PIN: 323-732-113 @ _internal.py : _log: --> line 113
+03/23/2020 01:31:43 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:31:43] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:22 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:32:22 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:32:23 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:32:23 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:32:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:32:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:33:10 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:33:10 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:33:10 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:33:10 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/23/2020 01:33:19 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:33:19] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:33:19 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:33:19] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:33:19 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:33:19] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:33:51 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:33:51 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:33:52 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:33:52 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/23/2020 01:33:56 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:33:56] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:33:56 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:33:56] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:34:04 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:34:04 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:34:05 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:34:05 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/23/2020 01:39:18 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:39:18 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:39:19 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:39:19 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/23/2020 01:39:19 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:39:19] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:39:28 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:39:28 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:39:29 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:39:29 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/23/2020 01:39:35 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:39:35] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:40:06 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:40:06 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:40:07 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:40:07 PM: INFO:  * Debugger PIN: 282-791-489 @ _internal.py : _log: --> line 113
+03/23/2020 01:40:09 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:40:09] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:40:49 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:40:49 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:40:50 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:40:50 PM: INFO:  * Debugger PIN: 323-732-113 @ _internal.py : _log: --> line 113
+03/23/2020 01:40:52 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:40:52] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:42:23 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:42:23 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:42:23 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:42:23 PM: INFO:  * Debugger PIN: 323-732-113 @ _internal.py : _log: --> line 113
+03/23/2020 01:42:25 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:42:25] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:43:10 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:43:10] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:43:10 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:43:10] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:43:10 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:43:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:43:54 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:43:54 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:43:54 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:43:54 PM: INFO:  * Debugger PIN: 323-732-113 @ _internal.py : _log: --> line 113
+03/23/2020 01:44:14 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:44:14] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:44:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:44:24] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:44:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:44:24] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:44:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:44:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:44:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:44:24] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:48:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:48:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:49:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:49:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:24 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:25 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:25] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:25 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:25] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:25 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:25 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:25 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:52:25 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:52:25] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:53:00 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:53:00] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:53:05 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:53:05] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:53:05 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:53:05] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:53:05 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:53:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:53:05 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:53:05] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:56:32 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:56:32] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:56:42 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:56:42] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:56:42 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:56:42] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:56:42 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:56:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:56:42 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:56:42] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:58:08 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:58:08] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:58:14 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:58:14] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:58:14 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:58:14] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:58:14 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:58:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:58:14 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:58:14] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:58:39 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+03/23/2020 01:58:39 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+03/23/2020 01:58:39 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+03/23/2020 01:58:39 PM: INFO:  * Debugger PIN: 323-732-113 @ _internal.py : _log: --> line 113
+03/23/2020 01:58:42 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:58:42] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:58:47 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:58:47] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:58:47 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:58:47] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:58:47 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:58:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 01:58:47 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:58:47] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:59:32 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:59:32] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 01:59:43 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:59:43] "[32mPOST / HTTP/1.1[0m" 302 - @ _internal.py : _log: --> line 113
+03/23/2020 01:59:43 PM: INFO: 127.0.0.1 - - [23/Mar/2020 13:59:43] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:01:35 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:01:35] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:01:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:01:41] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:01:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:01:41] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:01:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:01:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:01:41 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:01:41] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:03:58 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:03:58] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:04:06 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:04:06] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:04:06 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:04:06] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:04:06 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:04:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:04:06 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:04:06] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:05:30 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:05:30] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:05:30 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:05:30] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:05:37 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:05:37] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:05:37 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:05:37] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:05:37 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:05:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:05:38 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:05:38] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:05:47 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:05:47] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:05:47 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:05:47] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:08:17 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:08:17] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:08:17 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:08:17] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:14 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:14] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:14 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:14] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:18] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:18] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:18 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:18] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:22 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:22] "[32mPOST / HTTP/1.1[0m" 302 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:22 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:22] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:56 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:56] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:56 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:56] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:56 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:09:57 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:09:57] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:10:15 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:10:15] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:10:15 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:10:15] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:10:15 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:10:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:10:15 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:10:15] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:10:33 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:10:33] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:14:29 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:14:29] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:14:29 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:14:29] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:14:29 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:14:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:14:29 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:14:29] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:14:35 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:14:35] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:15:34 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:15:34] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:15:34 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:15:34] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:15:42 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:15:42] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:15:42 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:15:42] "[37mGET /static/styles/scripts.js HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:15:42 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:15:42] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:15:48 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:15:48] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:16:34 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:16:34] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:16:34 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:16:34] "[33mGET /script.js HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:16:49 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:16:49] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:16:49 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:16:49] "[33mGET /script.js HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:16:49 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:16:49] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:16:49 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:16:49] "[37mGET /static/styles/scripts.js HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:16:49 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:16:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:16:54 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:16:54] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:16:54 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:16:54] "[33mGET /script.js HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:17:35 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:17:35] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:17:35 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:17:35] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:17:35 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:17:35] "[33mGET /script.js HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:17:35 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:17:35] "[37mGET /static/styles/scripts.js HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:17:36 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:17:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:17:49 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:17:49] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:18:04 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:18:04] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:19:53 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:19:53] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:19:59 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:19:59] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:20:07 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:20:07] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:20:07 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:20:07] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:20:07 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:20:07] "[37mGET /static/styles/scripts.js HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:20:07 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:20:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+03/23/2020 02:20:13 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:20:13] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:21:43 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:21:43] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:21:54 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:21:54] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:22:17 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:22:17] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:22:21 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:22:21] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:22:22 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:22:22] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+03/23/2020 02:23:03 PM: INFO: 127.0.0.1 - - [23/Mar/2020 14:23:03] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113

@@ -43,8 +43,6 @@ def hello():
                                        birthtime=demographics.getFieldFromDict('birthtime'),
                                        gender=demographics.getFieldFromDict('gender'),
                                        race=demographics.getFieldFromDict('race'))
-
-
             else:
                 print("HELLO THERE")
                 return render_template("index.html",
@@ -81,10 +79,6 @@ def hello():
                                    numResults=entries,
                                    responseText=text)
         else: return redirect(request.url)
-    return render_template("index.html")
-
-
-
     return render_template("index.html")
 
 if __name__ == '__main__':

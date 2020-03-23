@@ -505,3 +505,79 @@
 03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b902c8> @ ParserClass.py : getRoot: --> line 38
 03/20/2020 01:30:11 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
 03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b902c8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 06:46:56 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113590f48> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 06:46:56 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 06:46:56 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/22/2020 06:46:56 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135d5688> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 06:46:56 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 06:47:27 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11257fef8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 06:47:27 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 06:47:27 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/22/2020 06:47:27 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11257fef8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 06:47:27 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 06:47:44 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:47:44 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:47:52 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:47:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:47:52 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:47:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:47:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:47:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:40 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:49:40 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:40 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:49:40 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:40 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:41 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:49 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:49 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:50 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:54:16 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:54:19 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:54:19 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:08:46 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:08:46 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:10:38 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:10:38 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:10:38 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:10:53 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:10:53 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:11:06 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:11:06 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:11:06 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:11:13 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:11:13 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:11:31 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:11:31 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:11:31 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:11:50 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:11:50 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:11:50 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:11:59 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:11:59 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:12:15 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:12:15 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:12:15 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:12:20 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:12:20 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:12:20 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:12:31 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:12:31 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:15:44 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:15:45 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:16:02 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:16:02 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:16:42 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:16:42 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/22/2020 07:16:59 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:16:59 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/22/2020 07:30:51 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112b71ea8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:30:51 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:30:51 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/22/2020 07:30:51 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112aefe08> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:30:51 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:31:20 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1134acea8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:31:20 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:31:20 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/22/2020 07:31:20 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113443e08> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:31:20 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21

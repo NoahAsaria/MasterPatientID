@@ -80,16 +80,16 @@ class PatientJSONResponse:
             d['family'] = nameList[0]['family']
             logging.debug("nameList parsed: %s",nameList)
         except:
-            logging.error("Failed to parse names from resource")
-            logging.error("nameList: %s", nameList)
+            logging.warning("Failed to parse names from resource")
+            logging.warning("nameList: %s", nameList)
         #get street address
         try:
             address = resource['address'][0]['line'][0]
             d['address'] = address
             logging.debug("address: %s", address)
         except:
-            logging.error("Failed to parse address from resource")
-            logging.error("address parsed: %s", address)
+            logging.warning("Failed to parse address from resource")
+            logging.warning("address parsed: %s", address)
         #Get DOB, Gender
         try:
             dob = resource['birthDate']
@@ -99,8 +99,18 @@ class PatientJSONResponse:
             logging.debug("date of birth parsed: %s", dob)
             logging.debug("gender parsed: %s", gender)
         except:
-            logging.error("Failed parsing birthDate, Gender")
-            logging.error("birthDate: %s, gender %s",dob, gender)
+            logging.warning("Failed parsing birthDate, Gender")
+            logging.warning("birthDate: %s, gender %s",dob, gender)
+        #Get city, state, postalCode
+        try:
+            state = resource['address'][0]['state']
+            d['state'] = state
+            city = resource['address'][0]['city']
+            d['city'] = city
+            zip = resource['address'][0]['postalCode']
+            d['postalCode'] = zip
+        except:
+            logging.warning("Failed parsing state, city, zip", state, city)
         logging.debug("Parsed resource from response into dict %s", d)
         print("parseResource:" ,d)
         return d
