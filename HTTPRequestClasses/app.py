@@ -1,11 +1,10 @@
-from flask import Flask, render_template, request, url_for, redirect
-import HTTPRequestClass as http
-import ParserClass as parser
+from flask import Flask, render_template, request, redirect
 import JSONResponseClass as jsonResponse
+import ParserClass as parser
+import HTTPRequestClass as http
 import pathlib
-import requests
-import time
-import jsonify
+import DictionaryMatchClass as matcher
+
 app = Flask(__name__)
 
 wsgi_app = app.wsgi_app
@@ -68,13 +67,25 @@ def hello():
 
                 response = GETRequest.executeRequest()
                 JSONResponse = jsonResponse.createPatientJSONResponse(response)
-                text = JSONResponse.getPatientDictionaries()
-                print("text:", text)
+                JSONDicts = JSONResponse.getPatientDictionaries()
+                #text = JSONResponse.getPatientDictionaries()
+
+                print("JSONDicts: ", JSONDicts)
+                print("CCDDIcts: ", demographics_dict)
+                matchDicts = matcher.sortStringDict(matcher.unweightedDictionaryMatch(demographics_dict,JSONDicts))
+
+                print(matchDicts)
+                #print("match dicts: ", matchDicts)
+                #print("formatted match dicts: ", matcher.formatMatchDict(matchDicts))
+                text = matcher.formatMatchDict(matchDicts)
+                text += "<strong><br>Patient Information Queried:<br></strong>" + str(demographics_dict)
+                text += "<strong><br><br>Data matched:<br></strong>" + matcher.formatJSONDicts(JSONDicts)
+
                 entries = JSONResponse.getNumberOfPatientEntries()
             except:
                 print("ERROR!")
                 return redirect(request.url)
-            print("I'm here!")
+            #print("I'm here!")
             return render_template("index.html",
                                    showResponse="True",
                                    numResults=entries,

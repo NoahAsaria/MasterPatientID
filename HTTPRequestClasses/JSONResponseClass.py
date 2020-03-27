@@ -1,4 +1,3 @@
-import ResponsesFromFiles as FileResponder
 import json
 import logging
 logFormat = '%(asctime)s: %(levelname)s: %(message)s @ %(filename)s : %(funcName)s: --> line %(lineno)d'
@@ -93,7 +92,7 @@ class PatientJSONResponse:
         #Get DOB, Gender
         try:
             dob = resource['birthDate']
-            d['DOB'] = dob
+            d['birthtime'] = dob
             gender = resource['gender']
             d['gender'] = gender
             logging.debug("date of birth parsed: %s", dob)
@@ -108,11 +107,11 @@ class PatientJSONResponse:
             city = resource['address'][0]['city']
             d['city'] = city
             zip = resource['address'][0]['postalCode']
-            d['postalCode'] = zip
+            d['postalcode'] = zip
         except:
             logging.warning("Failed parsing state, city, zip", state, city)
         logging.debug("Parsed resource from response into dict %s", d)
-        print("parseResource:" ,d)
+        #print("parseResource:" ,d)
         return d
 
     def printPatientDictionaries(self):

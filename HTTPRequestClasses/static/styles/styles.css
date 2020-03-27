@@ -55,3 +55,6 @@ p.upload-success {
 hr {
 	border-top: 1px dotted #000;
 }
+.results {
+    font-weight: bold;
+}

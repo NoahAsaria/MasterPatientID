@@ -84,10 +84,10 @@ class Demographics:
             names['birthtime'] = birth.attrib["value"]
             #Parse gender
             gender = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}administrativeGenderCode')
-            names['gender'] = gender.attrib["code"]
+            names['gender'] = gender.attrib["displayName"]
             #Parse race
-            race = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}raceCode')
-            names['race'] = race.attrib["displayName"]
+            #race = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}raceCode')
+            #names['race'] = race.attrib["displayName"]
             return names
         except:
             logging.WARNING("Could not parse demographics dict!")
@@ -140,15 +140,17 @@ class Demographics:
         #Parse gender
         try:
             gender = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}administrativeGenderCode')
-            names.append(gender.attrib["code"])
+            #print("GENDER DISPLAY", gender.attrib["displayName"])
+            names.append(gender.attrib["displayName"])
         except:
             logging.warning("Failed to parse gender: %s", gender.attrib["code"])
-        #Parse race
+        #Parse race -- Note, we're ignoring this for now because the SIIM Server doesn't match!
         try:
             race = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}raceCode')
-            names.append(race.attrib["displayName"])
+            #names.append(race.attrib["displayName"])
         except:
-            logging.warning("Failed to parse race: %s", race.attrib["displayName"])
+            logging.warning("couldn't find race!")
+            #logging.warning("Failed to parse race: %s", race.attrib["displayName"])
         logging.debug("dictionary parsed from file %s: %s", self.filepath, names)
         return names
 

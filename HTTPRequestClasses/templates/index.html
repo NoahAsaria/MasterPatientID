@@ -44,7 +44,9 @@
         <h4>{{prompt}}</h4>
     {% elif showResponse == 'True' %}
         <h4>Number of matches found: {{numResults}} </h4>
-        <p class="results">Results: {{responseText}} </p>
+        <p class="results"><strong>Results (by ID):<br></strong>
+            {% autoescape false %} {{responseText}} {% endautoescape %}
+        </p>
     {% else %}
         <p></p>
     {% endif %}
