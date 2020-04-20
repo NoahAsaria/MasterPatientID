@@ -96,8 +96,15 @@ class HTTPRequest:
             try:
                 logging.debug("identifiersDict.items(): %s", self.identifiersDict.items())
                 for key, value in self.identifiersDict.items():
-                    url += (key + "=" + value + "&")
+                    if(isinstance(value, list)):
+                        for i in range(0,len(value)):
+                            url += (key + "=" + value[i] + "&")
+                    else:
+                        url += (key + "=" + value + "&")
+
+                    url.replace(' ', '%20')
                     logging.debug("url appended: %s", url)
+                    print(url)
             except:
                 print("Invalid query parameters. Key =", key, ", Value =", value)
         if (url[-1] == '&'):

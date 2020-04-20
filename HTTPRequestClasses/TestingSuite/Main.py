@@ -1,118 +1,128 @@
-import JSONResponseClass as jsonResponse
+import PatientJSONResponseClass as jsonResponse
 import ParserClass as parser
 import HTTPRequestClass as http
 
 
-#from os import path
+POSTTest = http.HTTPRequest('POST')
+payload1 = {
+  "resourceType": "AllergyIntolerance",
+  "id": "ai83726462664827",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Penicillin - Hives and Airway compromise</div>"
+  },
+  "recordedDate": "2008-05-24",
+  "patient": {
+    "reference": "Patient/siimneela"
+  },
+  "reporter": {
+    "reference": "Practitioner/siimjoe"
+  },
 
-def testPOST():
-    payload = {
-        "resourceType": "Patient",
-        "id": "siimisabella",
-        "identifier": [
-          {
-            "use": "usual",
-            "system": "http://www.siim.org/",
-            "value": "TCGA-17-Z058",
-            "assigner": {
-              "display": "TCIA"
-            }
-          }
-        ],
-        "active": "true",
-        "name": [
-          {
-            "use": "official",
-            "family": "HELLO WORLD",
-            "given": [
-              "Isabella"
-            ]
-          },
-          {
-            "use": "usual",
-            "given": [
-              "Isabella"
-            ]
-          }
-        ],
-        "telecom": [
-          {
-            "use": "home"
-          },
-          {
-            "system": "phone",
-            "value": "(123) 123 1256",
-            "use": "work"
-          }
-        ],
-        "gender": "female",
-        "birthDate": "1954-03-23",
-        "deceasedBoolean": "false",
-        "address": [
-          {
-            "use": "home",
-            "line": [
-              "1002 Healthcare Dr."
-            ],
-            "city": "Beaverton",
-            "state": "OR",
-            "postalCode": "97005"
-          }
-        ],
-        "contact": [
-          {
-            "relationship": [
-              {
-                "coding": [
-                  {
-                    "system": "http://hl7.org/fhir/patient-contact-relationship",
-                    "code": "partner"
-                  }
-                ]
-              }
-            ],
-            "name": {
-              "family": "du",
-              "_family": {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/Profile/iso-21090#qualifier",
-                    "valueCode": "VV"
-                  }
-                ]
-              },
-              "given": [
-                "Bénédicte"
-              ]
+  "status": "confirmed",
+  "criticality": "high",
+  "type": "allergy",
+  "category": ["medication"],
+  "reaction": [
+    {
+        "substance": {
+            "coding": [
+            {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191",
+                "display": "ASPIRIN"
             },
-            "telecom": [
-              {
-                "system": "phone",
-                "value": "+33 (237) 998327"
-              }
-            ]
-          }
-        ],
-        "managingOrganization": {
-          "reference": "Organization/siim"
+            {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "215674",
+                "display": "Bicillin L-A"
+            }
+            ],
+        },
+      "manifestation": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "247472004",
+              "display": "Hives"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44416002",
+              "display": "Airway constriction"
+            }
+          ]
         }
+      ]
     }
-    isabellaPost = http.createDefaultPatientPOSTRequest()
-    isabellaPost.setPayload(payload)
-    response = isabellaPost.executeRequest()
-    print(response.text)
+  ]
+}
 
-    ##TESTING Parsing local file --> GET request to SIIM Server based on specified 'given' (first name) parameter
-    ##from CCD file --> Print dictionaries generated for each entry our GET response returned
-def testGETPayloadFromFile():
-    file_path = "TestFiles/IsabellaJones-ReferralSummary.xml"
-    isabellaRequest = http.createDefaultPatientGETRequest()
-    isabellaDemographics = parser.Demographics(file_path)
-    isabellaLookupIds = {'given' : isabellaDemographics.getFieldFromDict('given')}
-    isabellaRequest.setIdentifiersDict(isabellaLookupIds)
-    response = isabellaRequest.executeRequest()
-    JSONResponse = jsonResponse.createPatientJSONResponse(response)
-    JSONResponse.printPatientDictionaries()
 
-testPOST()
-testGETPayloadFromFile()
+payload2 = {
+  "resourceType": "AllergyIntolerance",
+  "id": "ai83726462664827",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Penicillin - Hives and Airway compromise</div>"
+  },
+  "recordedDate": "2008-05-24",
+  "patient": {
+    "reference": "Patient/siimsally"
+  },
+  "reporter": {
+    "reference": "Practitioner/siimmd"
+  },
+  "substance": {
+      "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "314422",
+        "display": "ALLERGENIC EXTRACT, PENICILLIN"
+      }
+    ]
+  },
+  "status": "confirmed",
+  "criticality": "high",
+  "type": "allergy",
+  "category": ["medication"],
+  "reaction": [
+    {
+      "manifestation": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "247472004",
+              "display": "Hives"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44416002",
+              "display": "Airway constriction"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+#Upload test #1: FHIR Accurate
+POSTTest.setApiEndpoint("http://hackathon.siim.org/fhir")
+POSTTest.setResource("AllergyIntolerance")
+POSTTest.setHeadersDict({'content-type': 'application/json'})
+POSTTest.setApiKey('d6e052ee-18c9-4f3b-a150-302c998e804c')
+POSTTest.setPayload(payload1)
+POSTTest.executeRequest()
+
+#Upload test #2: Original
+#POSTTest.setPayload(payload2)
+#POSTTest.executeRequest()
+GETTest = http.HTTPRequest('GET')
+GETTest.setApiEndpoint("http://hackathon.siim.org/fhir")
+GETTest.setResource("AllergyIntolerance")
+GETTest.setHeadersDict({'content-type': 'application/json'})
+GETTest.setApiKey('d6e052ee-18c9-4f3b-a150-302c998e804c')
+print("text: ", GETTest.executeRequest().text)

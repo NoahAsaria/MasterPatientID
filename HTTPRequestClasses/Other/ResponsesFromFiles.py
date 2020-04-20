@@ -1,4 +1,4 @@
-import JSONResponseClass as JSON
+import PatientJSONResponseClass as JSON
 import ParserClass as parser
 import HTTPRequestClass as http
 import logging
@@ -18,7 +18,7 @@ def getPatientGETResponseFromDemographicsFile(filepath, identifierList):
     logging.debug("identifierList argument: %s", identifierList)
     try:
         for id in identifierList:
-            idList.update({id : tempDemographics.getFieldFromDict(id)})
+            idList.update({id : tempDemographics.getFieldFromDemographicDict(id)})
         tempRequest.setIdentifiersDict(idList)
         logging.info("Finished parsing identifiers from file Demographics object")
     except:

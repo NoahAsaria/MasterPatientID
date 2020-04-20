@@ -3,10 +3,11 @@ import csv
 import pandas as pd
 import HTTPRequestClass as http
 import ParserClass as parser
-import JSONResponseClass as jsonResponse
+import PatientJSONResponseClass as jsonResponse
 import logging
 import operator
 import pathlib
+
 import fuzzywuzzy
 from fuzzywuzzy import fuzz
 logFormat = '%(asctime)s: %(levelname)s: %(message)s @ %(filename)s : %(funcName)s: --> line %(lineno)d'
@@ -14,7 +15,9 @@ logging.basicConfig(filename='logs/log.txt', format=logFormat,
                     datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
 
 
-def unweightedDictionaryMatch(CCDDict, SIIMDicts):
+#CCDDict = CCD File data, SIIMDicts = parsed info from the server for each patient based on selected parameters
+#Returns a dictionary with the match
+def weightedPatientDictionaryMatch(CCDDict, SIIMDicts):
     global matchDict
     matchDict={}
     for key in SIIMDicts:
@@ -26,13 +29,24 @@ def unweightedDictionaryMatch(CCDDict, SIIMDicts):
                 SIIMVal = str(SIIMDicts[key][field])
                 CCDVal = str(CCDDict[field][0])
                 ratio = fuzz.token_set_ratio(SIIMVal,CCDVal)
-                if (field == "family"): sum+=(1.2*ratio)
+                if (field == "family" or field == "birthtime"): sum+=(1.2*ratio)
                 else:
                     sum+=ratio
             except:
                 print("Failed on SIIMVal:",SIIMVal,"CCDVal",CCDVal)
         matchDict[key] = sum/count
     return matchDict
+
+#CCDDict = all allergies parsed from file, #SIIMDicts = parsed allergies from the server, assume that each entry represents its own patient
+def unweightedAllergyDictionaryMatch(CCDDict, SIIMDicts):
+    global matchDict
+    matchDict = {}
+    for entry in SIIMDicts:
+        sum = 0
+        count = 0
+        for allergy in SIIMDicts[entry]['allergies']:
+            print("allergy", allergy)
+
 
 def formatMatchDict(matchDict):
     formatted = ""

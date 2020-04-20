@@ -1,8 +1,11 @@
 import xml.etree.ElementTree as ET
+import bs4 as bs
 import csv
+import lxml
 import pandas as pd
 import logging
 import pathlib
+import re
 logFormat = '%(asctime)s: %(levelname)s: %(message)s @ %(filename)s : %(funcName)s: --> line %(lineno)d'
 logging.basicConfig(filename='logs/log.txt', format=logFormat,
                     datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
@@ -18,6 +21,7 @@ class Demographics:
             self.filepath=filepath
             self.root = self.getRoot()
             self.demographicDict = self.getDemographicDict()
+            self.allergiesDict = self.getAllergiesDict()
             logging.debug("Demographics dictionary parsed: %s", self.demographicDict)
 
     def setFilePath(self, path):
@@ -44,6 +48,19 @@ class Demographics:
             logging.ERROR("Unable to parse root! -- filepath given: ", self.getFilePath())
         return 0
 
+    def getSoupFromFile(self):
+        try:
+            infile = open(self.filepath,"r")
+            contents = infile.read()
+            logging.info("Before Soup!")
+            soup = bs.BeautifulSoup(contents,'xml')
+            #logging.info("Soup: ", soup)
+            logging.info("After soup!")
+            infile.close()
+        except:
+            logging.ERROR("Couldn't get soup from file!")
+
+        return soup
 
     def writeToCSV(self):
         root = self.getRoot()
@@ -92,6 +109,23 @@ class Demographics:
         except:
             logging.WARNING("Could not parse demographics dict!")
         return 0
+
+    def getAllergiesDict(self):
+        names = {}
+        try:
+            root1 = self.root
+            soup = self.getSoupFromFile()
+            #names.setdefault('allergies', []).append(parseOtherElements(soup,"allergy")) # Parse allergies
+            names['allergies'] = parseOtherElements(soup,"allergy")
+            names['immunizations'] = parseOtherElements(soup, "immun")
+            names['procedures'] = parseOtherElements(soup, "proc")
+            #names.setdefault('immunizations', []).append(parseOtherElements(soup,"immun")) # Parse Immunizations
+            #names.setdefault('procedures', []).append(parseOtherElements(soup, "proc"))  # Parse allergies
+            logging.info(names)
+            return names
+        except:
+            logging.warning("Could not parse allergies!" + str(names))
+
     def getListFromRoot(self):
         names = []
         root1 = self.root
@@ -159,7 +193,7 @@ class Demographics:
         print(df.head(1))
         logging.info("CSV Printed")
 
-    def getFieldFromDict(self, field):
+    def getFieldFromDemographicDict(self, field):
         d = self.demographicDict
         try:
             if isinstance(d[field], list):
@@ -173,3 +207,14 @@ class Demographics:
 
 def createNewDemographicsInstance(filepath):
     return Demographics(filepath)
+
+
+#Helper:
+def parseOtherElements(soup,element):
+    list1 = []
+    tabled = soup.find_all('tr', {'ID':re.compile(element)})
+    for each in tabled:
+        temp = str(each.get_text()).split('\n')
+        list1.append(temp[1])
+    return list1
+

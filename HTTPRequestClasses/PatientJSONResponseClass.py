@@ -123,8 +123,6 @@ class PatientJSONResponse:
         except:
             logging.error("FAILED TO PRINT Patient Entries")
 
-
-
 def createPatientJSONResponse(response):
     logging.info("Creating patient JSON Response Instance")
     return PatientJSONResponse(response)

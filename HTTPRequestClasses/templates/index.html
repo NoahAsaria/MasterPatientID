@@ -25,17 +25,30 @@
     <p></p>
     <p class="upload-success">Successfully uploaded: <strong>{{file_name}}</strong> </p>
         <h4>Select Parameters to query: </h4>
+        <p></p>
+        <h5>Demographic Information&emsp;&emsp;&emsp;Allergies</h5>
         <form method="post">
-            <select id=" demographicSelectors" class="custom-select-list" multiple="multiple" size="10" name="queryparams">
+            <select id="demographicSelectors" class="custom-select-list" multiple="multiple" size="10" name="queryparams" >
                 <option value="given:{{given}}" name="given">(First Name) {{given}} </option>
                 <option value="family:{{family}}" name="family">(Last Name) {{family}}</option>
                 <option value="gender:{{gender}}" name="gender">(Gender) {{gender}}</option>
-                <option value="race:{{race}}" name="race">(Race) {{race}}</option>
                 <option value="address:{{address}}" name="address">(Address) {{address}}</option>
                 <option value="city:{{city}}" name="city">(City) {{city}}</option>
                 <option value="state:{{state}}" name="state">(State) {{state}}</option>
                 <option value="postalcode:{{postalcode}}" name="postalcode">(Zip Code) {{postalcode}}</option>
                 <option value="birthtime:{{birthtime}}" name="birthtime">(Birthdate) {{birthtime}}</option>
+            </select>
+            <select id="allergySelectors" class="custom-select-list" multiple="multiple" size="10" name="allergyparams" >
+                <option value="display:{{allergy0}}" name="allergy0">{{allergy0}}</option>
+                <option value="display:{{allergy1}}" name="allergy1">{{allergy1}}</option>
+                <option value="display:{{allergy2}}" name="allergy2">{{allergy2}}</option>
+                <option value="display:{{allergy3}}" name="allergy3">{{allergy3}}</option>
+                <option value="display:{{allergy4}}" name="allergy4">{{allergy4}}</option>
+                <option value="display:{{allergy5}}" name="allergy5">{{allergy5}}</option>
+                <option value="display:{{allergy6}}" name="allergy6">{{allergy6}}</option>
+                <option value="display:{{allergy7}}" name="allergy7">{{allergy7}}</option>
+                <option value="display:{{allergy8}}" name="allergy8">{{allergy8}}</option>
+                <option value="display:{{allergy9}}" name="allergy9">{{allergy9}}</option>
             </select>
             <p></p>
             <button type="submit" formmethod="post" class="custom-submit-btn" name="query">Query SIIM Database</button>

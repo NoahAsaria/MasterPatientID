@@ -107,11 +107,22 @@ class MyTestCase(unittest.TestCase):
         assert (POSTDefault.getFullURL() == "http://hackathon.siim.org/fhir/Patient/")
         assert (POSTDefault.executeRequest().status_code == 201)
 
+    def test_Allergies(self):
+        GETTest = http.HTTPRequest('GET')
+        GETTest.setApiEndpoint("http://hackathon.siim.org/fhir")
+        GETTest.setResource("AllergyIntolerance")
+        GETTest.setHeadersDict({'content-type': 'application/json'})
+        GETTest.setIdentifiersDict({"code" : ['aspirin', 'Bicillin L-A']})
+        GETTest.setApiKey('d6e052ee-18c9-4f3b-a150-302c998e804c')
+        GETTest.executeRequest()
+
+
 def main():
     MyTestCase().test_defaultGETRequestHappyPath()
     MyTestCase().test_defaultPOSTRequestHappyPath()
     MyTestCase().test_GETHappyPath()
     MyTestCase().test_POSTHappyPath()
+    MyTestCase().test_Allergies()
 
 if __name__ == '__main__':
     unittest.main()

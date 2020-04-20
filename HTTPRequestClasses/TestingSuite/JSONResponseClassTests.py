@@ -1,5 +1,6 @@
 import unittest
-import JSONResponseClass as jsonResponse
+import PatientJSONResponseClass as jsonResponse
+import AllergiesJSONResponseClass as allergyJSONResponse
 import HTTPRequestClass as http
 
 
@@ -15,5 +16,16 @@ class MyTestCase(unittest.TestCase):
         assert(JSONResponse.getPatientDictionaries() == dict)
         assert(JSONResponse.getNumberOfPatientEntries() == 1)
 
+    def testCreateAllergiesJSONResponse(self):
+        GETTest = http.HTTPRequest('GET')
+        GETTest.setApiEndpoint("http://hackathon.siim.org/fhir")
+        GETTest.setResource("AllergyIntolerance")
+        GETTest.setHeadersDict({'content-type': 'application/json'})
+        GETTest.setApiKey('d6e052ee-18c9-4f3b-a150-302c998e804c')
+        response = GETTest.executeRequest()
+        #print("response text: ", response.text)
+        JSONResponse = allergyJSONResponse.createAllergyJSONResponse(response)
+
+        assert(1 == 1)
 if __name__ == '__main__':
     unittest.main()
