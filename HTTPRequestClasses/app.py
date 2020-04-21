@@ -75,7 +75,6 @@ def hello():
             demographicIdentifiers = {}
             allergymultiselect = request.form.getlist('allergyparams')
             allergyIdentifiers = {"code" : []}
-
             for entry in multiselect: #Get demographic identifiers
                 #print("entry: ", entry)
                 split = entry.split(':')
@@ -86,7 +85,6 @@ def hello():
                 split = entry.split(':')
                 allergyIdentifiers["code"].append(rx.lookup(split[1])) #This will produce a url like ../AllergyIntolerance?display="Hives"&display="Rashes"... Bascially we need to query by code per SIIM rules
 
-            #print("allergy identifiers: ", allergyIdentifiers)
 
             try:
                 #Handle the demographics selected
@@ -100,7 +98,6 @@ def hello():
                 response = GETRequest.executeRequest()
                 JSONResponse = jsonResponse.createPatientJSONResponse(response)
                 PatientJSONDicts = JSONResponse.getPatientDictionaries()
-                matchDicts = matcher.sortStringDict(matcher.weightedPatientDictionaryMatch(demographics_dict,PatientJSONDicts))
 
                 #Handle the allergies selected
                 GETRequest.setResource("AllergyIntolerance")
@@ -108,16 +105,22 @@ def hello():
                 allergyResponse = GETRequest.executeRequest()
                 allergyJSONResponse = jsonAllergyResponse.createAllergyJSONResponse(allergyResponse)
                 AllergyJSONDicts = allergyJSONResponse.getAllergyDictionaries()
+
                 print("CCD Allergy Parameters: ", allergyIdentifiers)
                 print("CCD Demographic Parameters: ", demographicIdentifiers)
                 print("Allergy JSON Dicts: ", AllergyJSONDicts)
                 print("Demographic JSON Dicts: ", PatientJSONDicts)
+                #Keep only allergiesJSONDict found also in PatientJSONDict
+                AllergyJSONDicts = matcher.intersection(PatientJSONDicts, AllergyJSONDicts)
+                allergyMatches = matcher.unweightedAllergyDictionaryMatch(allergyIdentifiers, AllergyJSONDicts)
+                matchDicts = matcher.sortStringDict(matcher.weightedPatientDictionaryMatch(demographics_dict,PatientJSONDicts,allergyMatches))
 
 
                 text = matcher.formatMatchDict(matchDicts)
                 text += "<strong><br>Patient Information Queried: " + str(demographicIdentifiers) + "<br></strong>"
                 text += str(demographics_dict)
-                text += "<strong><br><br>Data matched:<br></strong>" + matcher.formatJSONDicts(PatientJSONDicts)
+                text += "<strong><br><br>Demographics Data matched:<br></strong>" + matcher.formatJSONDicts(PatientJSONDicts)
+                text += "<strong><br>Allergy Data matched:<br></strong>" + matcher.formatJSONDicts(AllergyJSONDicts)
                 entries = JSONResponse.getNumberOfPatientEntries()
             except:
                 print("ERROR!")
