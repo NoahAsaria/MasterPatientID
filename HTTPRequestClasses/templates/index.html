@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type = "text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="{{ url_for('static',filename='styles/scripts.js') }}"></script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div id="page">
+        <div class="topNaviagationLink"><a href="{{ url_for('hello') }}">Home</a></div>
+        <div class="topNaviagationLink"><a href="{{ url_for('about') }}">About MPI</a></div>
+        <div class="topNaviagationLink"><a href="{{ url_for('contact') }}">Contact Us</a></div>
+
+    </div>
+
+
+
+    <div id="mainPicture">
+        <div class="picture">
+            <div id="headerTitle">Master Patient ID</div>
+            <div id="headerSubtext">Resolve patient identities with our Matching technology</div>
+        </div>
+    </div>
+
+    <div class="contentBox">
+        <div class="innerBox">
+            <div class="mainbody">
+                <h2>Attach a file below:</h2>
+                <form method="post" enctype=multipart/form-data>
+                    <input type="file" name="file" id="file1" onchange="javascript:updateList()" class="custom-file-input" />
+                    <label for="file1">Select File</label>
+                    <input type="submit" class="custom-submit-btn" />
+                    <div id="fileList"></div>
+                </form>
+            </div>
+            {% if file_type == '.xml' %}
+            <p></p>
+            <p class="upload-success">Successfully uploaded: <strong>{{file_name}}</strong> </p>
+            <h4>Select Parameters to query: </h4>
+            <form method="post">
+                <select id=" demographicSelectors" class="custom-select-list" multiple="multiple" size="10" name="queryparams">
+                    <option value="given:{{given}}" name="given">(First Name) {{given}} </option>
+                    <option value="family:{{family}}" name="family">(Last Name) {{family}}</option>
+                    <option value="gender:{{gender}}" name="gender">(Gender) {{gender}}</option>
+                    <option value="race:{{race}}" name="race">(Race) {{race}}</option>
+                    <option value="address:{{address}}" name="address">(Address) {{address}}</option>
+                    <option value="city:{{city}}" name="city">(City) {{city}}</option>
+                    <option value="state:{{state}}" name="state">(State) {{state}}</option>
+                    <option value="postalcode:{{postalcode}}" name="postalcode">(Zip Code) {{postalcode}}</option>
+                    <option value="birthtime:{{birthtime}}" name="birthtime">(Birthdate) {{birthtime}}</option>
+                </select>
+                <p></p>
+                <button type="submit" formmethod="post" class="custom-submit-btn" name="query">Query SIIM Database</button>
+            </form>
+            {% elif file_type == 'N/A' %}
+            <h4>{{prompt}}</h4>
+            {% elif showResponse == 'True' %}
+            <h4>Number of matches found: {{numResults}} </h4>
+            <p class="results">
+                <strong>Results (by ID):<br></strong>
+                {% autoescape false %} {{responseText}} {% endautoescape %}
+            </p>
+            {% else %}
+            <p></p>
+            {% endif %}
+        </div>
+
+    </div>
+    <div id="footer"></div>
+</body>
+</html>

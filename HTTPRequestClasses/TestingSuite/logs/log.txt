@@ -1,0 +1,748 @@
+02/28/2020 06:16:07 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:16:07 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:16:07 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:16:07 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:16:07 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:16:07 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:16:07 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:16:07 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:16:07 PM: WARNING: Contructed a new URL @ HTTPRequestClass.py : __init__: --> line 35
+02/28/2020 06:16:07 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:16:07 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:16:07 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:16:07 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:16:07 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:16:07 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:16:07 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 40
+02/28/2020 06:16:07 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 47
+02/28/2020 06:16:07 PM: INFO: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 60
+02/28/2020 06:17:08 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:17:08 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:17:08 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:17:08 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:17:08 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:17:08 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:17:08 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:17:08 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:17:08 PM: WARNING: Contructed a new URL @ HTTPRequestClass.py : __init__: --> line 35
+02/28/2020 06:17:08 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:17:08 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:17:08 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:17:08 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:17:08 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:17:08 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:17:08 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 40
+02/28/2020 06:17:08 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 47
+02/28/2020 06:17:08 PM: INFO: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 60
+02/28/2020 06:17:33 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:17:33 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:17:33 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:17:33 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:17:33 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 99
+02/28/2020 06:17:33 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:17:33 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 112
+02/28/2020 06:17:33 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 114
+02/28/2020 06:17:33 PM: WARNING: Contructed a new URL @ HTTPRequestClass.py : __init__: --> line 35
+02/28/2020 06:17:33 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:17:33 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:17:33 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 99
+02/28/2020 06:17:33 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:17:33 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 112
+02/28/2020 06:17:33 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 114
+02/28/2020 06:17:33 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 40
+02/28/2020 06:17:33 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 47
+02/28/2020 06:17:33 PM: INFO: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 60
+02/28/2020 06:19:53 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:19:53 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:19:53 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:19:53 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:19:53 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:19:53 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:19:53 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:19:53 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:19:53 PM: WARNING: Contructed a new URL @ HTTPRequestClass.py : __init__: --> line 35
+02/28/2020 06:19:53 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:19:53 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:19:53 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:19:53 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:19:53 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:19:53 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:19:53 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 40
+02/28/2020 06:19:53 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 47
+02/28/2020 06:19:53 PM: DEBUG: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 60
+02/28/2020 06:19:53 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:19:53 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:19:53 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:19:53 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 101
+02/28/2020 06:19:53 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 101
+02/28/2020 06:19:53 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:19:53 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 107
+02/28/2020 06:19:53 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:19:53 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 92
+02/28/2020 06:19:53 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 95
+02/28/2020 06:19:53 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 98
+02/28/2020 06:19:53 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 101
+02/28/2020 06:19:53 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 101
+02/28/2020 06:19:53 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:19:53 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 107
+02/28/2020 06:19:53 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 113
+02/28/2020 06:19:53 PM: INFO: Lowercase request type parameter: get @ HTTPRequestClass.py : executeRequest: --> line 139
+02/28/2020 06:19:53 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 144
+02/28/2020 06:19:53 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:19:53 PM: DEBUG: http://hackathon.siim.org:80 "GET /fhir/Patient/?gender=male&_id=siimjoe HTTP/1.1" 200 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:19:53 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 147
+02/28/2020 06:23:43 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+02/28/2020 06:23:43 PM: DEBUG: No resource specified as argument @ HTTPRequestClass.py : __init__: --> line 22
+02/28/2020 06:23:43 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:23:43 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:23:43 PM: DEBUG: api endpoint:  , resource:  @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:43 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:43 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:43 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:23:43 PM: DEBUG: New Url after removing trailing characters // @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:23:43 PM: DEBUG: url returned // @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:43 PM: DEBUG: full url after initialization: // @ HTTPRequestClass.py : __init__: --> line 38
+02/28/2020 06:23:43 PM: INFO: After initialization, toString(): apiEndpoint=, requestType=GET, resource=, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+02/28/2020 06:23:43 PM: DEBUG: In set API Endpoint: http://hackathon.siim.org/fhir @ HTTPRequestClass.py : setApiEndpoint: --> line 42
+02/28/2020 06:23:43 PM: DEBUG: New endpoint: http://hackathon.siim.org/fhir @ HTTPRequestClass.py : setApiEndpoint: --> line 44
+02/28/2020 06:23:43 PM: DEBUG: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 59
+02/28/2020 06:23:43 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+02/28/2020 06:23:43 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:43 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:43 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:43 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:43 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:43 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+02/28/2020 06:23:43 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:23:43 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:43 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:43 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:43 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:43 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:43 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:43 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+02/28/2020 06:23:43 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:23:43 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:43 PM: INFO: Lowercase request type parameter: get @ HTTPRequestClass.py : executeRequest: --> line 136
+02/28/2020 06:23:43 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+02/28/2020 06:23:43 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:23:43 PM: DEBUG: http://hackathon.siim.org:80 "GET /fhir/Patient/?gender=male&_id=siimjoe HTTP/1.1" 200 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:23:43 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 144
+02/28/2020 06:23:47 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+02/28/2020 06:23:47 PM: DEBUG: No resource specified as argument @ HTTPRequestClass.py : __init__: --> line 22
+02/28/2020 06:23:47 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:23:47 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:23:47 PM: DEBUG: api endpoint:  , resource:  @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:47 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:47 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:23:47 PM: DEBUG: New Url after removing trailing characters // @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:23:47 PM: DEBUG: url returned // @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:47 PM: DEBUG: full url after initialization: // @ HTTPRequestClass.py : __init__: --> line 38
+02/28/2020 06:23:47 PM: INFO: After initialization, toString(): apiEndpoint=, requestType=POST, resource=, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+02/28/2020 06:23:47 PM: DEBUG: In set API Endpoint: http://hackathon.siim.org/fhir @ HTTPRequestClass.py : setApiEndpoint: --> line 42
+02/28/2020 06:23:47 PM: DEBUG: New endpoint: http://hackathon.siim.org/fhir @ HTTPRequestClass.py : setApiEndpoint: --> line 44
+02/28/2020 06:23:47 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+02/28/2020 06:23:47 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:47 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:47 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:23:47 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:23:47 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:47 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:47 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:47 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:23:47 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:23:47 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:47 PM: INFO: Lowercase request type parameter: post @ HTTPRequestClass.py : executeRequest: --> line 136
+02/28/2020 06:23:47 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+02/28/2020 06:23:47 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:23:47 PM: DEBUG: http://hackathon.siim.org:80 "POST /fhir/Patient/ HTTP/1.1" 201 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:23:47 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 148
+02/28/2020 06:23:54 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:23:54 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:23:54 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:54 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:54 PM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:54 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:23:54 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:23:54 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:54 PM: DEBUG: full url after initialization: http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : __init__: --> line 38
+02/28/2020 06:23:54 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+02/28/2020 06:23:54 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+02/28/2020 06:23:54 PM: DEBUG: Setting identifiers dictionary as {'gender': 'male', '_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 59
+02/28/2020 06:23:54 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:54 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:54 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:54 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:54 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:54 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+02/28/2020 06:23:54 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:23:54 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:54 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:23:54 PM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:23:54 PM: DEBUG: identifiersDict.items(): dict_items([('gender', 'male'), ('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+02/28/2020 06:23:54 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:54 PM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+02/28/2020 06:23:54 PM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+02/28/2020 06:23:54 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+02/28/2020 06:23:54 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?gender=male&_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:23:54 PM: INFO: Lowercase request type parameter: get @ HTTPRequestClass.py : executeRequest: --> line 136
+02/28/2020 06:23:54 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+02/28/2020 06:23:54 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:23:54 PM: DEBUG: http://hackathon.siim.org:80 "GET /fhir/Patient/?gender=male&_id=siimjoe HTTP/1.1" 200 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:23:54 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 144
+02/28/2020 06:24:12 PM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+02/28/2020 06:24:12 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+02/28/2020 06:24:12 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:24:12 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:24:12 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:24:12 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:24:12 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:24:12 PM: DEBUG: full url after initialization: http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : __init__: --> line 38
+02/28/2020 06:24:12 PM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=POST, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+02/28/2020 06:24:12 PM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+02/28/2020 06:24:12 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:24:12 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:24:12 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:24:12 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:24:12 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:24:12 PM: INFO: Lowercase request type parameter: post @ HTTPRequestClass.py : executeRequest: --> line 136
+02/28/2020 06:24:12 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+02/28/2020 06:24:12 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:24:12 PM: DEBUG: http://hackathon.siim.org:80 "POST /fhir/Patient/ HTTP/1.1" 201 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:24:12 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 148
+02/28/2020 06:24:12 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:24:12 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:24:12 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:24:12 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:24:12 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:24:12 PM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+02/28/2020 06:24:12 PM: DEBUG: Lowercase request type: post @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+02/28/2020 06:24:12 PM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+02/28/2020 06:24:12 PM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+02/28/2020 06:24:12 PM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+02/28/2020 06:24:12 PM: INFO: Lowercase request type parameter: post @ HTTPRequestClass.py : executeRequest: --> line 136
+02/28/2020 06:24:12 PM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+02/28/2020 06:24:12 PM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+02/28/2020 06:24:12 PM: DEBUG: http://hackathon.siim.org:80 "POST /fhir/Patient/ HTTP/1.1" 201 None @ connectionpool.py : _make_request: --> line 437
+02/28/2020 06:24:12 PM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 148
+03/03/2020 03:05:57 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/03/2020 03:06:03 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/03/2020 03:06:03 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/03/2020 03:06:03 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/03/2020 03:06:03 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/03/2020 03:06:03 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/03/2020 03:06:03 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:08:05 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/09/2020 07:08:05 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:08:05 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/09/2020 07:08:05 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:08:05 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:08:06 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:08:14 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:08:14 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:10:04 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:10:04 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:11:23 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:11:23 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:12:22 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:12:22 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:20:20 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:20:20 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:22:08 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:22:08 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:22:59 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:23:00 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:23:33 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:23:33 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:23:45 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:23:45 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 21
+03/09/2020 07:24:56 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:24:56 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 22
+03/09/2020 07:26:39 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:26:41 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 22
+03/09/2020 07:27:13 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 07:27:13 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 22
+03/09/2020 11:21:56 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:21:57 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 22
+03/09/2020 11:22:22 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:22:22 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 22
+03/09/2020 11:22:56 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:22:56 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 22
+03/09/2020 11:23:41 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:23:41 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 23
+03/09/2020 11:28:58 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/09/2020 11:28:58 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:28:58 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/09/2020 11:28:58 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:28:59 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:28:59 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:29:13 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/09/2020 11:29:13 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:29:14 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/09/2020 11:29:14 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:29:14 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:29:14 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:29:35 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:29:35 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 24
+03/09/2020 11:30:25 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:30:26 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 25
+03/09/2020 11:30:37 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:30:37 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 26
+03/09/2020 11:30:48 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:30:48 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:31:24 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:31:24 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:32:07 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:32:07 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:32:45 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:32:45 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:33:26 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:33:26 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:34:37 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:34:37 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 59
+03/09/2020 11:34:37 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:34:47 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:34:48 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 59
+03/09/2020 11:34:48 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:35:53 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:35:53 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 59
+03/09/2020 11:35:53 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:37:18 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:37:19 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 60
+03/09/2020 11:37:19 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:37:49 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:37:49 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 61
+03/09/2020 11:37:49 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:38:03 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:38:03 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 61
+03/09/2020 11:38:03 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:38:26 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:38:26 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 61
+03/09/2020 11:38:26 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:38:44 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:38:45 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 61
+03/09/2020 11:38:45 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:39:00 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:39:00 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 61
+03/09/2020 11:39:00 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:39:17 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:39:17 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 61
+03/09/2020 11:39:17 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:39:44 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:39:44 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 61
+03/09/2020 11:39:44 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:40:00 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:40:00 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 59
+03/09/2020 11:40:00 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:40:24 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:40:24 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 60
+03/09/2020 11:40:24 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:40:37 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:40:37 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 60
+03/09/2020 11:40:37 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 27
+03/09/2020 11:41:43 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:41:44 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 54
+03/09/2020 11:41:44 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 25
+03/09/2020 11:42:15 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:42:15 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:42:15 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 24
+03/09/2020 11:42:31 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:42:31 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:42:31 PM: ERROR: Could not initialize PatientJSONResponse! @ JSONResponseClass.py : __init__: --> line 24
+03/09/2020 11:43:27 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:43:27 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:43:27 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 71
+03/09/2020 11:43:51 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:43:51 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:43:51 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 72
+03/09/2020 11:44:19 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:44:19 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:44:19 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 73
+03/09/2020 11:44:43 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:44:43 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:44:43 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 74
+03/09/2020 11:45:38 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:45:38 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:45:38 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 74
+03/09/2020 11:45:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:45:52 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:45:52 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 74
+03/09/2020 11:46:15 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:46:15 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:46:15 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 74
+03/09/2020 11:46:53 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:46:53 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:46:53 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 75
+03/09/2020 11:47:09 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:47:11 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:47:33 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:47:33 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/09/2020 11:49:25 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:49:25 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/09/2020 11:50:00 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:50:00 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/09/2020 11:50:35 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/09/2020 11:50:35 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/10/2020 12:05:16 AM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/10/2020 12:05:16 AM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/10/2020 12:06:24 AM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/10/2020 12:06:24 AM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/20/2020 09:34:28 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1027379f8> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:34:28 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:37:25 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1062379f8> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:37:25 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:37:55 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1052379f8> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:37:55 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:45:04 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1049379f8> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:45:04 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:45:48 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x10622e9f8> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:45:48 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:45:48 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113689278> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:48:59 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x105a379f8> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:48:59 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:49:24 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x102f209f8> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:49:24 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:51:23 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x105a379f8> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:51:23 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:51:31 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1051ab598> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:51:31 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:51:31 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1051ab598> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:51:31 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:52:20 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1058ab598> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:52:20 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:52:20 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112c54868> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:52:20 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:52:37 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1051ab598> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:52:37 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 09:52:37 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 151
+03/20/2020 09:52:37 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1051ab598> @ ParserClass.py : getRoot: --> line 34
+03/20/2020 09:52:37 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 20
+03/20/2020 10:03:00 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1050aa5e8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:03:00 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:03:00 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 157
+03/20/2020 10:03:00 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1050aa5e8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:03:00 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:04:52 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113475b38> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:04:52 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:04:52 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 157
+03/20/2020 10:04:52 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113475b38> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:04:52 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:05:49 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11359eb88> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:05:49 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:05:49 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 158
+03/20/2020 10:05:49 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11359eb88> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:05:49 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:07:24 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135a0c78> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:07:24 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:07:24 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 161
+03/20/2020 10:07:24 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135a0c78> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:07:24 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:08:06 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112c88c78> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:08:06 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:08:06 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 162
+03/20/2020 10:08:06 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112c88c78> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:08:06 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:08:34 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112e9fcc8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:08:34 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112ee36d8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:08:34 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:08:34 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 10:08:34 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112f21f98> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:08:34 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112e9fcc8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:08:34 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112f21cc8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:08:34 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:08:34 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112f21cc8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:09:18 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11349dd18> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:09:18 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1134e1728> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:09:18 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:09:18 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 10:09:18 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113520f98> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:09:18 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11349dd18> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:09:18 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113520d68> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:09:18 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:09:18 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113520d68> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:11:26 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112d9dd18> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:11:26 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112de1728> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:11:26 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:11:26 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 10:11:26 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112e20f98> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:11:26 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112d9dd18> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:11:26 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112e20d68> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 10:11:26 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 10:11:26 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112e20d68> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113599ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135dd8b8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 12:56:47 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11361d958> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113599ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135b12c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:47 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 12:56:47 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135b12c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113584ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135c98b8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 12:56:55 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113609958> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113584ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11359c2c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 12:56:55 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 12:56:55 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11359c2c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11368fea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1136d38b8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 01:21:42 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113713958> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11368fea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1136a72c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:21:42 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 01:21:42 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1136a72c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b78ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111bbc8b8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 01:30:11 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111bfc958> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b78ea8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b902c8> @ ParserClass.py : getRoot: --> line 38
+03/20/2020 01:30:11 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/20/2020 01:30:11 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b902c8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 06:46:56 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113590f48> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 06:46:56 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 06:46:56 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/22/2020 06:46:56 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1135d5688> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 06:46:56 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 06:47:27 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11257fef8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 06:47:27 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 06:47:27 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/22/2020 06:47:27 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11257fef8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 06:47:27 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 06:47:44 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:47:44 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:47:52 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:47:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:47:52 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:47:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:47:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:47:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:40 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:49:40 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:40 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/22/2020 06:49:40 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:40 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:41 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:49 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:49 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:49:50 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 06:54:16 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:54:19 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 06:54:19 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:08:46 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:08:46 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:10:38 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:10:38 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:10:38 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:10:53 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:10:53 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:11:06 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:11:06 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:11:06 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:11:13 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:11:13 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:11:31 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:11:31 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:11:31 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:11:50 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:11:50 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:11:50 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:11:59 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:11:59 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:12:15 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:12:15 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:12:15 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:12:20 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:12:20 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:12:20 PM: ERROR: Failed parsing patient dictionary from entries @ JSONResponseClass.py : getDictFromEntries: --> line 69
+03/22/2020 07:12:31 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:12:31 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:15:44 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:15:45 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:16:02 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:16:02 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/22/2020 07:16:42 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:16:42 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/22/2020 07:16:59 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/22/2020 07:16:59 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 53
+03/22/2020 07:30:51 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112b71ea8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:30:51 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:30:51 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/22/2020 07:30:51 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112aefe08> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:30:51 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:31:20 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1134acea8> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:31:20 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/22/2020 07:31:20 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 163
+03/22/2020 07:31:20 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113443e08> @ ParserClass.py : getRoot: --> line 38
+03/22/2020 07:31:20 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/23/2020 02:45:46 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/23/2020 02:45:46 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 02:45:47 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/23/2020 02:45:47 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 02:45:47 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 02:45:47 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 02:45:52 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/23/2020 02:45:52 PM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 52
+03/23/2020 02:45:57 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111c119a8> @ ParserClass.py : getRoot: --> line 39
+03/23/2020 02:45:57 PM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/23/2020 02:45:57 PM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 164
+03/23/2020 02:45:57 PM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111c55958> @ ParserClass.py : getRoot: --> line 39
+03/23/2020 02:45:57 PM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/26/2020 12:05:10 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/26/2020 12:05:10 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/26/2020 12:05:14 PM: WARNING: No api endpoint specified as argument @ HTTPRequestClass.py : __init__: --> line 17
+03/26/2020 12:05:14 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/26/2020 12:05:14 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/26/2020 12:05:14 PM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/27/2020 12:38:53 AM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+03/27/2020 12:38:53 AM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/27/2020 12:38:53 AM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+03/27/2020 12:38:53 AM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+03/27/2020 12:38:53 AM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+03/27/2020 12:38:53 AM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+03/27/2020 12:38:53 AM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+03/27/2020 12:38:53 AM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+03/27/2020 12:38:53 AM: DEBUG: full url after initialization: http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : __init__: --> line 38
+03/27/2020 12:38:53 AM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+03/27/2020 12:38:53 AM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+03/27/2020 12:38:53 AM: DEBUG: Setting identifiers dictionary as {'_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 59
+03/27/2020 12:38:53 AM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+03/27/2020 12:38:53 AM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+03/27/2020 12:38:53 AM: DEBUG: identifiersDict.items(): dict_items([('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+03/27/2020 12:38:53 AM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+03/27/2020 12:38:53 AM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+03/27/2020 12:38:53 AM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+03/27/2020 12:38:53 AM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+03/27/2020 12:38:53 AM: INFO: Lowercase request type parameter: get @ HTTPRequestClass.py : executeRequest: --> line 136
+03/27/2020 12:38:53 AM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+03/27/2020 12:38:53 AM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+03/27/2020 12:38:53 AM: DEBUG: http://hackathon.siim.org:80 "GET /fhir/Patient/?_id=siimjoe HTTP/1.1" 200 None @ connectionpool.py : _make_request: --> line 437
+03/27/2020 12:38:53 AM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 144
+03/27/2020 12:38:53 AM: INFO: Creating patient JSON Response Instance @ JSONResponseClass.py : createPatientJSONResponse: --> line 129
+03/27/2020 12:38:53 AM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 51
+03/27/2020 12:38:53 AM: DEBUG: Patient entries: [{'fullUrl': 'http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe', 'resource': {'resourceType': 'Patient', 'id': 'siimjoe', 'meta': {'versionId': '1', 'lastUpdated': '2020-03-26T03:00:36.737-04:00'}, 'text': {'status': 'generated', 'div': '<div xmlns="http://www.w3.org/1999/xhtml">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Jim <b>SIIM</b></td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Pleasantville, Vic, 3999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: TCGA-17-Z058 (TCIA)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>'}, 'identifier': [{'use': 'usual', 'system': 'http://www.siim.org/', 'value': 'TCGA-17-Z058', 'assigner': {'display': 'TCIA'}}], 'active': True, 'name': [{'use': 'official', 'family': 'SIIM ', 'given': ['Joe']}, {'use': 'usual', 'given': ['Joe']}], 'telecom': [{'use': 'home'}, {'system': 'phone', 'value': '(035) 555 6473', 'use': 'work'}], 'gender': 'male', 'birthDate': '1926-03-30', 'deceasedBoolean': False, 'address': [{'use': 'home', 'line': ['534 Erewhon St'], 'city': 'PleasantVille', 'state': 'Vic', 'postalCode': '3999'}], 'contact': [{'relationship': [{'coding': [{'system': 'http://hl7.org/fhir/patient-contact-relationship', 'code': 'partner'}]}], 'name': {'family': 'du', '_family': {'extension': [{'url': 'http://hl7.org/fhir/Profile/iso-21090#qualifier', 'valueCode': 'VV'}]}, 'given': ['Bénédicte']}, 'telecom': [{'system': 'phone', 'value': '+33 (237) 998327'}]}], 'managingOrganization': {'reference': 'Organization/siim'}}, 'search': {'mode': 'match'}, 'response': {'status': '201 Created', 'etag': 'W/"1"'}}] @ JSONResponseClass.py : getPatientEntries: --> line 33
+03/27/2020 12:38:53 AM: DEBUG: resource: {'resourceType': 'Patient', 'id': 'siimjoe', 'meta': {'versionId': '1', 'lastUpdated': '2020-03-26T03:00:36.737-04:00'}, 'text': {'status': 'generated', 'div': '<div xmlns="http://www.w3.org/1999/xhtml">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Jim <b>SIIM</b></td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Pleasantville, Vic, 3999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: TCGA-17-Z058 (TCIA)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>'}, 'identifier': [{'use': 'usual', 'system': 'http://www.siim.org/', 'value': 'TCGA-17-Z058', 'assigner': {'display': 'TCIA'}}], 'active': True, 'name': [{'use': 'official', 'family': 'SIIM ', 'given': ['Joe']}, {'use': 'usual', 'given': ['Joe']}], 'telecom': [{'use': 'home'}, {'system': 'phone', 'value': '(035) 555 6473', 'use': 'work'}], 'gender': 'male', 'birthDate': '1926-03-30', 'deceasedBoolean': False, 'address': [{'use': 'home', 'line': ['534 Erewhon St'], 'city': 'PleasantVille', 'state': 'Vic', 'postalCode': '3999'}], 'contact': [{'relationship': [{'coding': [{'system': 'http://hl7.org/fhir/patient-contact-relationship', 'code': 'partner'}]}], 'name': {'family': 'du', '_family': {'extension': [{'url': 'http://hl7.org/fhir/Profile/iso-21090#qualifier', 'valueCode': 'VV'}]}, 'given': ['Bénédicte']}, 'telecom': [{'system': 'phone', 'value': '+33 (237) 998327'}]}], 'managingOrganization': {'reference': 'Organization/siim'}} @ JSONResponseClass.py : parseResource: --> line 75
+03/27/2020 12:38:53 AM: DEBUG: nameList parsed: [{'use': 'official', 'family': 'SIIM ', 'given': ['Joe']}, {'use': 'usual', 'given': ['Joe']}] @ JSONResponseClass.py : parseResource: --> line 80
+03/27/2020 12:38:53 AM: DEBUG: address: 534 Erewhon St @ JSONResponseClass.py : parseResource: --> line 88
+03/27/2020 12:38:53 AM: DEBUG: date of birth parsed: 1926-03-30 @ JSONResponseClass.py : parseResource: --> line 98
+03/27/2020 12:38:53 AM: DEBUG: gender parsed: male @ JSONResponseClass.py : parseResource: --> line 99
+03/27/2020 12:38:53 AM: DEBUG: Parsed resource from response into dict {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'birthdate': '1926-03-30', 'gender': 'male', 'state': 'Vic', 'city': 'PleasantVille', 'postalcode': '3999'} @ JSONResponseClass.py : parseResource: --> line 113
+03/27/2020 12:38:53 AM: INFO: Created PatientJSONResponse object @ JSONResponseClass.py : __init__: --> line 19
+03/27/2020 12:38:53 AM: DEBUG: patientDictionaries: {'siimjoe': {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'birthdate': '1926-03-30', 'gender': 'male', 'state': 'Vic', 'city': 'PleasantVille', 'postalcode': '3999'}} @ JSONResponseClass.py : __init__: --> line 20
+03/27/2020 12:38:53 AM: DEBUG: patientDictionaries: {'siimjoe': {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'birthdate': '1926-03-30', 'gender': 'male', 'state': 'Vic', 'city': 'PleasantVille', 'postalcode': '3999'}} @ JSONResponseClass.py : getPatientDictionaries: --> line 41
+03/27/2020 12:38:53 AM: DEBUG: Number of patient entries from GET Response: 1 @ JSONResponseClass.py : getNumberOfPatientEntries: --> line 37
+03/27/2020 12:38:59 AM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+03/27/2020 12:38:59 AM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/27/2020 12:38:59 AM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+03/27/2020 12:38:59 AM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+03/27/2020 12:38:59 AM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+03/27/2020 12:38:59 AM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+03/27/2020 12:38:59 AM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+03/27/2020 12:38:59 AM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+03/27/2020 12:38:59 AM: DEBUG: full url after initialization: http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : __init__: --> line 38
+03/27/2020 12:38:59 AM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+03/27/2020 12:38:59 AM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+03/27/2020 12:38:59 AM: DEBUG: Setting identifiers dictionary as {'_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 59
+03/27/2020 12:38:59 AM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+03/27/2020 12:38:59 AM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+03/27/2020 12:38:59 AM: DEBUG: identifiersDict.items(): dict_items([('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+03/27/2020 12:38:59 AM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+03/27/2020 12:38:59 AM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+03/27/2020 12:38:59 AM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+03/27/2020 12:38:59 AM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+03/27/2020 12:38:59 AM: INFO: Lowercase request type parameter: get @ HTTPRequestClass.py : executeRequest: --> line 136
+03/27/2020 12:38:59 AM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+03/27/2020 12:38:59 AM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+03/27/2020 12:38:59 AM: DEBUG: http://hackathon.siim.org:80 "GET /fhir/Patient/?_id=siimjoe HTTP/1.1" 200 None @ connectionpool.py : _make_request: --> line 437
+03/27/2020 12:38:59 AM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 144
+03/27/2020 12:38:59 AM: INFO: Creating patient JSON Response Instance @ JSONResponseClass.py : createPatientJSONResponse: --> line 129
+03/27/2020 12:38:59 AM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 51
+03/27/2020 12:38:59 AM: DEBUG: Patient entries: [{'fullUrl': 'http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe', 'resource': {'resourceType': 'Patient', 'id': 'siimjoe', 'meta': {'versionId': '1', 'lastUpdated': '2020-03-26T03:00:36.737-04:00'}, 'text': {'status': 'generated', 'div': '<div xmlns="http://www.w3.org/1999/xhtml">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Jim <b>SIIM</b></td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Pleasantville, Vic, 3999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: TCGA-17-Z058 (TCIA)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>'}, 'identifier': [{'use': 'usual', 'system': 'http://www.siim.org/', 'value': 'TCGA-17-Z058', 'assigner': {'display': 'TCIA'}}], 'active': True, 'name': [{'use': 'official', 'family': 'SIIM ', 'given': ['Joe']}, {'use': 'usual', 'given': ['Joe']}], 'telecom': [{'use': 'home'}, {'system': 'phone', 'value': '(035) 555 6473', 'use': 'work'}], 'gender': 'male', 'birthDate': '1926-03-30', 'deceasedBoolean': False, 'address': [{'use': 'home', 'line': ['534 Erewhon St'], 'city': 'PleasantVille', 'state': 'Vic', 'postalCode': '3999'}], 'contact': [{'relationship': [{'coding': [{'system': 'http://hl7.org/fhir/patient-contact-relationship', 'code': 'partner'}]}], 'name': {'family': 'du', '_family': {'extension': [{'url': 'http://hl7.org/fhir/Profile/iso-21090#qualifier', 'valueCode': 'VV'}]}, 'given': ['Bénédicte']}, 'telecom': [{'system': 'phone', 'value': '+33 (237) 998327'}]}], 'managingOrganization': {'reference': 'Organization/siim'}}, 'search': {'mode': 'match'}, 'response': {'status': '201 Created', 'etag': 'W/"1"'}}] @ JSONResponseClass.py : getPatientEntries: --> line 33
+03/27/2020 12:38:59 AM: DEBUG: resource: {'resourceType': 'Patient', 'id': 'siimjoe', 'meta': {'versionId': '1', 'lastUpdated': '2020-03-26T03:00:36.737-04:00'}, 'text': {'status': 'generated', 'div': '<div xmlns="http://www.w3.org/1999/xhtml">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Jim <b>SIIM</b></td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Pleasantville, Vic, 3999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: TCGA-17-Z058 (TCIA)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>'}, 'identifier': [{'use': 'usual', 'system': 'http://www.siim.org/', 'value': 'TCGA-17-Z058', 'assigner': {'display': 'TCIA'}}], 'active': True, 'name': [{'use': 'official', 'family': 'SIIM ', 'given': ['Joe']}, {'use': 'usual', 'given': ['Joe']}], 'telecom': [{'use': 'home'}, {'system': 'phone', 'value': '(035) 555 6473', 'use': 'work'}], 'gender': 'male', 'birthDate': '1926-03-30', 'deceasedBoolean': False, 'address': [{'use': 'home', 'line': ['534 Erewhon St'], 'city': 'PleasantVille', 'state': 'Vic', 'postalCode': '3999'}], 'contact': [{'relationship': [{'coding': [{'system': 'http://hl7.org/fhir/patient-contact-relationship', 'code': 'partner'}]}], 'name': {'family': 'du', '_family': {'extension': [{'url': 'http://hl7.org/fhir/Profile/iso-21090#qualifier', 'valueCode': 'VV'}]}, 'given': ['Bénédicte']}, 'telecom': [{'system': 'phone', 'value': '+33 (237) 998327'}]}], 'managingOrganization': {'reference': 'Organization/siim'}} @ JSONResponseClass.py : parseResource: --> line 75
+03/27/2020 12:38:59 AM: DEBUG: nameList parsed: [{'use': 'official', 'family': 'SIIM ', 'given': ['Joe']}, {'use': 'usual', 'given': ['Joe']}] @ JSONResponseClass.py : parseResource: --> line 80
+03/27/2020 12:38:59 AM: DEBUG: address: 534 Erewhon St @ JSONResponseClass.py : parseResource: --> line 88
+03/27/2020 12:38:59 AM: DEBUG: date of birth parsed: 1926-03-30 @ JSONResponseClass.py : parseResource: --> line 98
+03/27/2020 12:38:59 AM: DEBUG: gender parsed: male @ JSONResponseClass.py : parseResource: --> line 99
+03/27/2020 12:38:59 AM: DEBUG: Parsed resource from response into dict {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'birthdate': '1926-03-30', 'gender': 'male', 'state': 'Vic', 'city': 'PleasantVille', 'postalcode': '3999'} @ JSONResponseClass.py : parseResource: --> line 113
+03/27/2020 12:38:59 AM: INFO: Created PatientJSONResponse object @ JSONResponseClass.py : __init__: --> line 19
+03/27/2020 12:38:59 AM: DEBUG: patientDictionaries: {'siimjoe': {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'birthdate': '1926-03-30', 'gender': 'male', 'state': 'Vic', 'city': 'PleasantVille', 'postalcode': '3999'}} @ JSONResponseClass.py : __init__: --> line 20
+03/27/2020 12:38:59 AM: DEBUG: patientDictionaries: {'siimjoe': {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'birthdate': '1926-03-30', 'gender': 'male', 'state': 'Vic', 'city': 'PleasantVille', 'postalcode': '3999'}} @ JSONResponseClass.py : getPatientDictionaries: --> line 41
+03/27/2020 12:38:59 AM: DEBUG: Number of patient entries from GET Response: 1 @ JSONResponseClass.py : getNumberOfPatientEntries: --> line 37
+03/27/2020 12:42:04 AM: DEBUG: No headers dictionary specified as argument @ HTTPRequestClass.py : __init__: --> line 27
+03/27/2020 12:42:04 AM: WARNING: No identifiers specified @ HTTPRequestClass.py : __init__: --> line 32
+03/27/2020 12:42:04 AM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+03/27/2020 12:42:04 AM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+03/27/2020 12:42:04 AM: DEBUG: identifiersDict.items(): dict_items([]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+03/27/2020 12:42:04 AM: INFO: Removed trailing ? character @ HTTPRequestClass.py : constructRequestUrl: --> line 109
+03/27/2020 12:42:04 AM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 110
+03/27/2020 12:42:04 AM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+03/27/2020 12:42:04 AM: DEBUG: full url after initialization: http://hackathon.siim.org/fhir/Patient/ @ HTTPRequestClass.py : __init__: --> line 38
+03/27/2020 12:42:04 AM: INFO: After initialization, toString(): apiEndpoint=http://hackathon.siim.org/fhir, requestType=GET, resource=Patient, headersDict={}, identifiersDict={} @ HTTPRequestClass.py : __init__: --> line 39
+03/27/2020 12:42:04 AM: INFO: Setting API Key @ HTTPRequestClass.py : setApiKey: --> line 46
+03/27/2020 12:42:04 AM: DEBUG: Setting identifiers dictionary as {'_id': 'siimjoe'}:  @ HTTPRequestClass.py : setIdentifiersDict: --> line 59
+03/27/2020 12:42:04 AM: DEBUG: api endpoint: http://hackathon.siim.org/fhir , resource: Patient @ HTTPRequestClass.py : constructRequestUrl: --> line 91
+03/27/2020 12:42:04 AM: DEBUG: Lowercase request type: get @ HTTPRequestClass.py : constructRequestUrl: --> line 94
+03/27/2020 12:42:04 AM: DEBUG: identifiersDict.items(): dict_items([('_id', 'siimjoe')]) @ HTTPRequestClass.py : constructRequestUrl: --> line 97
+03/27/2020 12:42:04 AM: DEBUG: url appended: http://hackathon.siim.org/fhir/Patient/?_id=siimjoe& @ HTTPRequestClass.py : constructRequestUrl: --> line 100
+03/27/2020 12:42:04 AM: INFO: Removed trailing & character: %s @ HTTPRequestClass.py : constructRequestUrl: --> line 105
+03/27/2020 12:42:04 AM: DEBUG: New Url after removing trailing characters http://hackathon.siim.org/fhir/Patient/?_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 106
+03/27/2020 12:42:04 AM: DEBUG: url returned http://hackathon.siim.org/fhir/Patient/?_id=siimjoe @ HTTPRequestClass.py : constructRequestUrl: --> line 111
+03/27/2020 12:42:04 AM: INFO: Lowercase request type parameter: get @ HTTPRequestClass.py : executeRequest: --> line 136
+03/27/2020 12:42:04 AM: INFO: Added apikey to header dictionary @ HTTPRequestClass.py : executeRequest: --> line 141
+03/27/2020 12:42:04 AM: DEBUG: Starting new HTTP connection (1): hackathon.siim.org:80 @ connectionpool.py : _new_conn: --> line 225
+03/27/2020 12:42:04 AM: DEBUG: http://hackathon.siim.org:80 "GET /fhir/Patient/?_id=siimjoe HTTP/1.1" 200 None @ connectionpool.py : _make_request: --> line 437
+03/27/2020 12:42:04 AM: INFO: GET Request response generated @ HTTPRequestClass.py : executeRequest: --> line 144
+03/27/2020 12:42:04 AM: INFO: Creating patient JSON Response Instance @ JSONResponseClass.py : createPatientJSONResponse: --> line 129
+03/27/2020 12:42:04 AM: ERROR: Could not parse entries from JSON response @ JSONResponseClass.py : getPatientEntriesFromResponse: --> line 51
+03/27/2020 12:42:04 AM: DEBUG: Patient entries: [{'fullUrl': 'http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe', 'resource': {'resourceType': 'Patient', 'id': 'siimjoe', 'meta': {'versionId': '1', 'lastUpdated': '2020-03-26T03:00:36.737-04:00'}, 'text': {'status': 'generated', 'div': '<div xmlns="http://www.w3.org/1999/xhtml">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Jim <b>SIIM</b></td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Pleasantville, Vic, 3999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: TCGA-17-Z058 (TCIA)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>'}, 'identifier': [{'use': 'usual', 'system': 'http://www.siim.org/', 'value': 'TCGA-17-Z058', 'assigner': {'display': 'TCIA'}}], 'active': True, 'name': [{'use': 'official', 'family': 'SIIM ', 'given': ['Joe']}, {'use': 'usual', 'given': ['Joe']}], 'telecom': [{'use': 'home'}, {'system': 'phone', 'value': '(035) 555 6473', 'use': 'work'}], 'gender': 'male', 'birthDate': '1926-03-30', 'deceasedBoolean': False, 'address': [{'use': 'home', 'line': ['534 Erewhon St'], 'city': 'PleasantVille', 'state': 'Vic', 'postalCode': '3999'}], 'contact': [{'relationship': [{'coding': [{'system': 'http://hl7.org/fhir/patient-contact-relationship', 'code': 'partner'}]}], 'name': {'family': 'du', '_family': {'extension': [{'url': 'http://hl7.org/fhir/Profile/iso-21090#qualifier', 'valueCode': 'VV'}]}, 'given': ['Bénédicte']}, 'telecom': [{'system': 'phone', 'value': '+33 (237) 998327'}]}], 'managingOrganization': {'reference': 'Organization/siim'}}, 'search': {'mode': 'match'}, 'response': {'status': '201 Created', 'etag': 'W/"1"'}}] @ JSONResponseClass.py : getPatientEntries: --> line 33
+03/27/2020 12:42:04 AM: DEBUG: resource: {'resourceType': 'Patient', 'id': 'siimjoe', 'meta': {'versionId': '1', 'lastUpdated': '2020-03-26T03:00:36.737-04:00'}, 'text': {'status': 'generated', 'div': '<div xmlns="http://www.w3.org/1999/xhtml">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Jim <b>SIIM</b></td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Pleasantville, Vic, 3999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: TCGA-17-Z058 (TCIA)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>'}, 'identifier': [{'use': 'usual', 'system': 'http://www.siim.org/', 'value': 'TCGA-17-Z058', 'assigner': {'display': 'TCIA'}}], 'active': True, 'name': [{'use': 'official', 'family': 'SIIM ', 'given': ['Joe']}, {'use': 'usual', 'given': ['Joe']}], 'telecom': [{'use': 'home'}, {'system': 'phone', 'value': '(035) 555 6473', 'use': 'work'}], 'gender': 'male', 'birthDate': '1926-03-30', 'deceasedBoolean': False, 'address': [{'use': 'home', 'line': ['534 Erewhon St'], 'city': 'PleasantVille', 'state': 'Vic', 'postalCode': '3999'}], 'contact': [{'relationship': [{'coding': [{'system': 'http://hl7.org/fhir/patient-contact-relationship', 'code': 'partner'}]}], 'name': {'family': 'du', '_family': {'extension': [{'url': 'http://hl7.org/fhir/Profile/iso-21090#qualifier', 'valueCode': 'VV'}]}, 'given': ['Bénédicte']}, 'telecom': [{'system': 'phone', 'value': '+33 (237) 998327'}]}], 'managingOrganization': {'reference': 'Organization/siim'}} @ JSONResponseClass.py : parseResource: --> line 75
+03/27/2020 12:42:04 AM: DEBUG: nameList parsed: [{'use': 'official', 'family': 'SIIM ', 'given': ['Joe']}, {'use': 'usual', 'given': ['Joe']}] @ JSONResponseClass.py : parseResource: --> line 80
+03/27/2020 12:42:04 AM: DEBUG: address: 534 Erewhon St @ JSONResponseClass.py : parseResource: --> line 88
+03/27/2020 12:42:04 AM: DEBUG: date of birth parsed: 1926-03-30 @ JSONResponseClass.py : parseResource: --> line 98
+03/27/2020 12:42:04 AM: DEBUG: gender parsed: male @ JSONResponseClass.py : parseResource: --> line 99
+03/27/2020 12:42:04 AM: DEBUG: Parsed resource from response into dict {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'birthtime': '1926-03-30', 'gender': 'male', 'state': 'Vic', 'city': 'PleasantVille', 'postalcode': '3999'} @ JSONResponseClass.py : parseResource: --> line 113
+03/27/2020 12:42:04 AM: INFO: Created PatientJSONResponse object @ JSONResponseClass.py : __init__: --> line 19
+03/27/2020 12:42:04 AM: DEBUG: patientDictionaries: {'siimjoe': {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'birthtime': '1926-03-30', 'gender': 'male', 'state': 'Vic', 'city': 'PleasantVille', 'postalcode': '3999'}} @ JSONResponseClass.py : __init__: --> line 20
+03/27/2020 12:42:04 AM: DEBUG: patientDictionaries: {'siimjoe': {'given': 'Joe', 'family': 'SIIM ', 'address': '534 Erewhon St', 'birthtime': '1926-03-30', 'gender': 'male', 'state': 'Vic', 'city': 'PleasantVille', 'postalcode': '3999'}} @ JSONResponseClass.py : getPatientDictionaries: --> line 41
+03/27/2020 12:42:04 AM: DEBUG: Number of patient entries from GET Response: 1 @ JSONResponseClass.py : getNumberOfPatientEntries: --> line 37
+03/27/2020 01:39:29 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112cf9a48> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:39:29 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:39:29 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 164
+03/27/2020 01:39:29 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112d968b8> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:39:29 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:39:50 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112be7a48> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:39:50 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:39:50 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 164
+03/27/2020 01:39:50 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112d868b8> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:39:50 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:40:31 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111c29a48> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:40:31 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:40:31 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 165
+03/27/2020 01:40:31 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111c709f8> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:40:31 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:41:19 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x113444a48> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:41:19 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:41:19 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 165
+03/27/2020 01:41:19 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x11348b9f8> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:41:19 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:46:12 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x1122f49a8> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:46:12 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:46:12 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 166
+03/27/2020 01:46:12 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112392818> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:46:12 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:47:02 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111af99a8> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:47:02 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'F', 'race': 'Caucasian or European American'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:47:02 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 166
+03/27/2020 01:47:02 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x111b97818> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:47:02 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'F', 'race': 'White'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:47:53 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112c299a8> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:47:53 AM: DEBUG: Demographics dictionary parsed: {'given': ['Isabella'], 'family': ['Jones'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19470501', 'gender': 'Female'} @ ParserClass.py : __init__: --> line 21
+03/27/2020 01:47:53 AM: INFO: Field given is in list format, returning Isabella @ ParserClass.py : getFieldFromDict: --> line 166
+03/27/2020 01:47:53 AM: DEBUG: Root parsed: <Element '{urn:hl7-org:v3}ClinicalDocument' at 0x112c6f958> @ ParserClass.py : getRoot: --> line 39
+03/27/2020 01:47:53 AM: DEBUG: Demographics dictionary parsed: {'given': ['Mary'], 'family': ['Grant'], 'address': ['No Address Indicated'], 'city': ['No City Indicated'], 'state': ['CA'], 'postalcode': ['99999'], 'birthtime': '19870321', 'gender': 'Female'} @ ParserClass.py : __init__: --> line 21

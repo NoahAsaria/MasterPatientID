@@ -1,368 +1,175 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
-from xml.etree import ElementTree
 import xml.etree.ElementTree as ET
 import csv
 import pandas as pd
+import logging
+import pathlib
+logFormat = '%(asctime)s: %(levelname)s: %(message)s @ %(filename)s : %(funcName)s: --> line %(lineno)d'
+logging.basicConfig(filename='logs/log.txt', format=logFormat,
+                    datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
 
-class DemographicsData:
+
+class Demographics:
     def __init__(self, filepath=None):
         if filepath is None:
+            self.filepath = ''
+            logging.warning("Demographics: No filepath was entered!")
             print("Please pass in a local file path in the format filename.xml")
-        
-def getRoot(file):
-    tree = ET.parse(file)
-    root = tree.getroot()
-    return root
-
-def parseDemographicDataToCSV(file):  
-    root = getRoot(file)
-    DemographicsCSV = open('demographic.csv', 'w')
-    csvwriter = csv.writer(DemographicsCSV)
-    headers = ["First Name", "Last Name", "Street Address", "City", "State", "Zip", "DOB", "Gender", "Race"]
-    csvwriter.writerow(headers)
-    infoList = parseDemographicsListFromRoot(root)
-    csvwriter.writerow(infoList)
-    DemographicsCSV.close()
-    return 'demographic.csv'
-
-def parseDemographicsDictFromRoot(root):
-    names = {}
-    for name in root.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}given'):
-        names.setdefault('firstname', []).append(name.text)
-    #Parse last name(s)
-    for name in root.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}family'):
-        names.setdefault('lastname', []).append(name.text)
-    #Parse addresses
-    for name in root.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}streetAddressLine'):
-        names.setdefault('address', []).append(name.text)
-    #Parse city
-    for name in root.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}city'):
-        names.setdefault('address', []).append(name.text)
-    #Parse state
-    for name in root.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}state'):
-        names.setdefault('state', []).append(name.text)
-    #Parse postal code
-    for name in root.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}postalCode'):
-        names.setdefault('postalcode', []).append(name.text)
-    #Parse birthTime
-    birth = root.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}birthTime')
-    names['birthtime'] = birth.attrib["value"]
-    #Parse gender
-    gender = root.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}administrativeGenderCode')
-    names['gender'] = gender.attrib["code"]
-    #Parse race
-    race = root.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}raceCode')
-    names['race'] = race.attrib["displayName"]
-    return names
-
-def parseDemographicsListFromRoot(root):
-    names = []
-    #Parse first name(s)
-    for name in root.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}given'):
-        names.append(name.text)
-    #Parse last name(s)
-    for name in root.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}family'):
-        names.append(name.text)
-    #Parse addresses
-    for name in root.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}streetAddressLine'):
-        names.append(name.text)
-    #Parse city
-    for name in root.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}city'):
-        names.append(name.text)
-    #Parse state
-    for name in root.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}state'):
-        names.append(name.text)
-    #Parse postal code
-    for name in root.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}postalCode'):
-        names.append(name.text)
-    #Parse birthTime
-    birth = root.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}birthTime')
-    names.append(birth.attrib["value"])
-    #Parse gender
-    gender = root.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}administrativeGenderCode')
-    names.append(gender.attrib["code"])
-    #Parse race
-    race = root.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}raceCode')
-    names.append(race.attrib["displayName"])
-    return names
-
-def printCSV(csv):
-    df = pd.read_csv(csv)
-    print(df.head(1))
-
-printCSV(parseDemographicDataToCSV('IsabellaJones-ReferralSummary.xml'))
-dict1 = parseDemographicsDictFromRoot(getRoot('IsabellaJones-ReferralSummary.xml'))
-print(dict1)
-
-
-# In[8]:
-
-
-def getFirstName(d):
-    try:
-        return d['firstname'][0]
-    except:
-        print("Can't find first name field in dictionary")
-
-def getLastName(d):
-    try:
-        return d['lastname'][0]
-    except:
-        print("Can't find last name field in dictionary")
-
-dict1 = parseDemographicsDictFromRoot(getRoot('IsabellaJones-ReferralSummary.xml'))
-print(getFirstName(dict1))
-
-
-# In[34]:
-
-
-import requests
-import json
-import urllib
-import logging
-
-#Refer to https://stackoverflow.com/questions/4841782/python-constructor-and-default-value
-#HTTPRequest(apiEndpoint, requestType, resource, headersDict, identifiersDict):
-#apiEndpoint = http://hackathon.siim.org/fhir/
-#requestType = POST/GET/PUT/...
-#resource = Patient (endpoint becomes apiEndpoint/resource)
-#headersDict = HEADERS = {'content-type': 'application/json', 'apikey': API_KEY}
-#identifiersDict = {"id": "siimjoe", "name": "joseph", ...}
-#apiKey must be passed in via setApiKey
-class HTTPRequest:
-    def __init__(self,  requestType=None, apiEndpoint=None, resource=None, headersDict=None, identifiersDict=None):
-        if requestType is None:
-            self.requestType = ''
         else:
-            self.requestType = requestType
-        if apiEndpoint is None:
-            self.apiEndpoint = ''
-        else:
-            self.apiEndpoint = apiEndpoint
-        if resource is None:
-            self.resource = ''
-        else:
-            self.resource = resource
-        if headersDict is None:
-            self.headersDict = {}
-        else:
-            self.headersDict = headersDict
-        if identifiersDict is None:
-            self.identifiersDict = {}
-        else:
-            self.identifiersDict = identifiersDict
-        self.apiKey = None
-    def setApiEndpoint(self, endpt):
-        self.apiEndpoint = endpt
-    def setApiKey(self, key):
-        self.apiKey = key
-    def setRequestType(self, request):
-        self.requestType = request
-    def setResource(self, res):
-        self.resource = res
-    def setHeadersDict(self, hd):
-        self.headersDict = hd
-    def setIdentifiersDict(self, id):
-        self.identifiersDict = id
-    def setPayload(self, p):
-        self.payload = p;
-        
-    def getApiEndpoint(self):
-        return self.apiEndpoint
-    def getRequestType(self):
-        return self.requestType
-    def getResource(self):
-        return self.resource
-    def getHeadersDict(self):
-        return self.headersDict
-    def getIdentifiersDict(self):
-        return self.identifiersDict
-    def getPayload(self):
-        return self.payload
-    def toString(self):
-        return "apiEndpoint=" + self.apiEndpoint + ", requestType=" + self.requestType + ", resource=" + self.resource +         ", headersDict=" + str(self.headersDict) + ", identifiersDict=" + str(self.identifiersDict)
+            self.filepath=filepath
+            self.root = self.getRoot()
+            self.demographicDict = self.getDemographicDict()
+            logging.debug("Demographics dictionary parsed: %s", self.demographicDict)
 
-    #constructRequestUrl(self): 
-    #url = apiEndpoint/resourceType/?id1=key1&id2=key2&...
-    #Ex: http://hackathon.siim.org//fhir/Patient/?_id=siimjoe&_resourceType=Patient
-    def constructRequestUrl(self):
-        url = self.apiEndpoint + "/" + self.resource + "/?"
-        req = self.requestType.lower()
-        if (req == 'get'):
-            try:
-                for key,value in self.identifiersDict.items():
-                    url += (key + "=" + value +"&")
-            except:
-                print("Invalid query parameters. Key =",key, ", Value =",value)
-        return url
-    
-    def executeRequest(self, url1):
-        req = self.requestType.lower()
-        h = self.headersDict
-        if (self.apiKey is not None):
-            a = {'apikey': self.apiKey}
-            h.update(a)
-        if (req == 'get'):
-            response = requests.get(url = url1, headers = h)
-            return response
-        elif (req == 'post'):
-            response = requests.post(url = url1, headers = h, json = self.payload)
-            return response
-        else:
-            return "Invalid request type"
+    def setFilePath(self, path):
+        logging.debug("File path passed in: %s", path)
+        self.filepath = path
+        logging.info("Set filepath")
 
-    def executeRequest(self):
-        url1 = self.constructRequestUrl()
-        req = self.requestType.lower()
-        h = self.headersDict
-        if (self.apiKey is not None):
-            a = {'apikey': self.apiKey}
-            h.update(a)
-        if (req == 'get'):
-            response = requests.get(url = url1, headers = h)
-            return response
-        elif (req == 'post'):
-            response = requests.post(url = url1, headers = h, json = self.payload)
-            return response
-        else:
-            return "Invalid request type"
-        
-def createDefaultPatientGETRequest():
-    GETTest = HTTPRequest('GET')
-    GETTest.setApiEndpoint("http://hackathon.siim.org/fhir")
-    GETTest.setResource("Patient")
-    GETTest.setHeadersDict({'content-type': 'application/json'})
-    GETTest.setApiKey('d6e052ee-18c9-4f3b-a150-302c998e804c')
-    return GETTest
+    def getFilePath(self):
+        return str(self.filepath)
 
-def createDefaultPatientPOSTRequest():
-    POSTTest = HTTPRequest('POST')
-    POSTTest.setApiEndpoint("http://hackathon.siim.org/fhir")
-    POSTTest.setResource("Patient")
-    POSTTest.setHeadersDict({'content-type': 'application/json'})
-    POSTTest.setApiKey('d6e052ee-18c9-4f3b-a150-302c998e804c')
-    return POSTTest
+    def getRoot(self):
+        try:
+            fileType = pathlib.Path(self.getFilePath()).suffix.lower()
+            #print("FILE TYPE: ", fileType)
+            #logging.debug("filetype: ", fileType)
+            if (fileType == '.xml' or fileType == '.ccd'):
+                tree = ET.parse(self.getFilePath())
+                root = tree.getroot()
+                logging.debug("Root parsed: %s", root)
+                return root
+            else:
+                logging.error("File-type must be .XML or .CCD! Given: ", fileType)
+        except:
+            logging.ERROR("Unable to parse root! -- filepath given: ", self.getFilePath())
+        return 0
 
 
-# In[35]:
+    def writeToCSV(self):
+        root = self.getRoot()
+        DemographicsCSV = open('demographic.csv', 'w')
+        csvwriter = csv.writer(DemographicsCSV)
+        headers = ["First Name", "Last Name", "Street Address", "City", "State", "Zip", "DOB", "Gender", "Race"]
+        csvwriter.writerow(headers)
+        infoList = self.getListFromRoot()
+        logging.debug("Wrote to CSV: %s", infoList)
+        csvwriter.writerow(infoList)
+        DemographicsCSV.close()
+        return 'demographic.csv'
 
+    def getDemographicDict(self):
+        #print(self.getRoot())
+        try:
+            names = {}
+            root1 = self.root
+            for name in root1.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}given'):
+                names.setdefault('given', []).append(name.text)
+            #Parse last name(s)
+            for name in root1.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}family'):
+                names.setdefault('family', []).append(name.text)
+            #Parse addresses
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}streetAddressLine'):
+                names.setdefault('address', []).append(name.text)
+            #Parse city
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}city'):
+                names.setdefault('city', []).append(name.text)
+            #Parse state
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}state'):
+                names.setdefault('state', []).append(name.text)
+            #Parse postal code
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}postalCode'):
+                names.setdefault('postalcode', []).append(name.text)
+            #Parse birthTime
+            birth = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}birthTime')
+            names['birthtime'] = birth.attrib["value"]
+            #Parse gender
+            gender = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}administrativeGenderCode')
+            names['gender'] = gender.attrib["displayName"]
+            #Parse race
+            #race = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}raceCode')
+            #names['race'] = race.attrib["displayName"]
+            return names
+        except:
+            logging.WARNING("Could not parse demographics dict!")
+        return 0
+    def getListFromRoot(self):
+        names = []
+        root1 = self.root
+        #Parse first name(s)
+        try:
+            for name in root1.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}given'):
+                names.append(name.text)
+        except:
+            logging.warning("Failed to parse first name entry: %s", name.text)
+        #Parse last name(s)
+        try:
+            for name in root1.findall('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}name/{urn:hl7-org:v3}family'):
+                names.append(name.text)
+        except:
+            logging.warning("Failed to parse last name entry: %s", name.text)
+        #Parse addresses
+        try:
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}streetAddressLine'):
+                names.append(name.text)
+        except:
+            logging.warning("Failed to parse address entry: %s", name.text)
+        #Parse city
+        try:
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}city'):
+                names.append(name.text)
+        except:
+            logging.warning("Failed to parse city entry: %s", name.text)
+        #Parse state
+        try:
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}state'):
+                names.append(name.text)
+        except:
+            logging.warning("Failed to parse state entry: %s", name.text)
+        #Parse postal code
+        try:
+            for name in root1.findall('.//{urn:hl7-org:v3}patientRole/{urn:hl7-org:v3}addr/{urn:hl7-org:v3}postalCode'):
+                names.append(name.text)
+        except:
+            logging.warning("Failed to parse postal code entry: %s", name.text)
+        #Parse birthTime
+        try:
+            birth = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}birthTime')
+            names.append(birth.attrib["value"])
+        except:
+            logging.warning("Failed to parse birthtime: %s", birth.attrib["value"])
+        #Parse gender
+        try:
+            gender = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}administrativeGenderCode')
+            #print("GENDER DISPLAY", gender.attrib["displayName"])
+            names.append(gender.attrib["displayName"])
+        except:
+            logging.warning("Failed to parse gender: %s", gender.attrib["code"])
+        #Parse race -- Note, we're ignoring this for now because the SIIM Server doesn't match!
+        try:
+            race = root1.find('.//{urn:hl7-org:v3}patient/{urn:hl7-org:v3}raceCode')
+            #names.append(race.attrib["displayName"])
+        except:
+            logging.warning("couldn't find race!")
+            #logging.warning("Failed to parse race: %s", race.attrib["displayName"])
+        logging.debug("dictionary parsed from file %s: %s", self.filepath, names)
+        return names
 
-payload = {
-        "resourceType": "Patient",
-        "id": "siimisabella",
-        "identifier": [
-          {
-            "use": "usual",
-            "system": "http://www.siim.org/",
-            "value": "TCGA-17-Z058",
-            "assigner": {
-              "display": "TCIA"
-            }
-          }
-        ],
-        "active": "true",
-        "name": [
-          {
-            "use": "official",
-            "family": "Jones",
-            "given": [
-              "Isabella"
-            ]
-          },
-          {
-            "use": "usual",
-            "given": [
-              "Isabella"
-            ]
-          }
-        ],
-        "telecom": [
-          {
-            "use": "home"
-          },
-          {
-            "system": "phone",
-            "value": "(123) 123 1234",
-            "use": "work"
-          }
-        ],
-        "gender": "female",
-        "birthDate": "1963-04-24",
-        "deceasedBoolean": "false",
-        "address": [
-          {
-            "use": "home",
-            "line": [
-              "1002 Healthcare Dr"
-            ],
-            "city": "Beaverton",
-            "state": "OR",
-            "postalCode": "97005"
-          }
-        ],
-        "contact": [
-          {
-            "relationship": [
-              {
-                "coding": [
-                  {
-                    "system": "http://hl7.org/fhir/patient-contact-relationship",
-                    "code": "partner"
-                  }
-                ]
-              }
-            ],
-            "name": {
-              "family": "du",
-              "_family": {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/Profile/iso-21090#qualifier",
-                    "valueCode": "VV"
-                  }
-                ]
-              },
-              "given": [
-                "Bénédicte"
-              ]
-            },
-            "telecom": [
-              {
-                "system": "phone",
-                "value": "+33 (237) 998327"
-              }
-            ]
-          }
-        ],
-        "managingOrganization": {
-          "reference": "Organization/siim"
-        }
-    }
-isabellaPost = createDefaultPatientPOSTRequest()
-isabellaPost.setPayload(payload)
-response = isabellaPost.executeRequest()
-print(response.text, "response", response.status_code)
+    def printCSV(csv):
+        df = pd.read_csv(csv)
+        print(df.head(1))
+        logging.info("CSV Printed")
 
+    def getFieldFromDict(self, field):
+        d = self.demographicDict
+        try:
+            if isinstance(d[field], list):
+                logging.info("Field %s is in list format, returning %s", field, d[field][0])
+                return d[field][0]
+            else:
+                logging.info("Field %s is not a list, returning %s", field, d[field])
+                return d[field]
+        except:
+            logging.error("Can't find field in dict!")
 
-# In[37]:
-
-
-isabellaRequest = createDefaultPatientGETRequest()
-isabellaDemoDict = parseDemographicsDictFromRoot(getRoot('IsabellaJones-ReferralSummary.xml'))
-isabellaLookupIds = {'given' : getFirstName(isabellaDemoDict)}
-isabellaRequest.setIdentifiersDict(isabellaLookupIds)
-response = isabellaRequest.executeRequest().text
-print(response)
-
-
-# In[ ]:
-
-
-
-
+def createNewDemographicsInstance(filepath):
+    return Demographics(filepath)
