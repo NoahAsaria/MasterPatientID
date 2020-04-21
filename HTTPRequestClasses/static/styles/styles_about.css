@@ -4,11 +4,12 @@ body {
     padding: 0;
     text-align: left;
     font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-    font-size: 13px;
-    
+    font-size: 19px;
     color: #061C37;
-    background: #014D5D url(background.png);
-    background-repeat: repeat-x;
+    background: #0c1927 url(data.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 * {
@@ -64,7 +65,8 @@ body {
         width: 750px;
         height: 325px;
         top: 10px;
-        background-image: url(Capture.png);
+        background-image: linear-gradient(white,#80bfff );
+        background-color: #80bfff;
         background-repeat: no-repeat;
         margin-left: 10px;
     }
@@ -74,17 +76,19 @@ body {
     top: 30px;
     left: 40px;
     font-size: 45px;
-    color: #FFFFFF;
+    color: #18324e;
     font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 
 #headerSubtext {
     position: relative;
     top: 30px;
-    left: 50px;
+    left: 10px;
+    margin-right: 10px;
     font-size: 17px;
-    color: #A9C8FA;
+    color: Black;
     font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+
 }
 
 
