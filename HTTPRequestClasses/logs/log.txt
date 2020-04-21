@@ -7347,3 +7347,249 @@
 04/21/2020 05:57:06 PM: DEBUG: allergyDictionaries: {'siimneela': {'allergies': ['1191', '215674']}} @ AllergiesJSONResponseClass.py : getAllergyDictionaries: --> line 47
 04/21/2020 05:57:06 PM: DEBUG: Number of patient entries from GET Response: 2 @ PatientJSONResponseClass.py : getNumberOfPatientEntries: --> line 37
 04/21/2020 05:57:06 PM: INFO: 127.0.0.1 - - [21/Apr/2020 17:57:06] "[37mPOST / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 05:58:28 PM: INFO: 127.0.0.1 - - [21/Apr/2020 17:58:28] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 05:58:28 PM: INFO: 127.0.0.1 - - [21/Apr/2020 17:58:28] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 05:58:28 PM: INFO: 127.0.0.1 - - [21/Apr/2020 17:58:28] "[33mGET /img/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 05:58:38 PM: INFO: 127.0.0.1 - - [21/Apr/2020 17:58:38] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:21 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:00:21 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:00:22 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:00:22 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:00:22 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:22] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:24 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:24] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:24 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:24] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:24 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:24] "[33mGET /img/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:24 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:24] "[33mGET /img/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:42 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:42] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:42 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:42] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:42 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:42] "[37mHEAD / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:43 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:43] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:43 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:43] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:43 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:43] "[33mGET /img/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:43 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:43] "[33mGET /img/system.JPG HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:46 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:00:46 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:00:52 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:00:52 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:00:53 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:00:53 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:00:53 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:53] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:55 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:55] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:55 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:55] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:00:55 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:00:55] "[33mGET /img/system.JPG HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:01:46 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:01:46] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:01:48 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:01:48] "[37mHEAD / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:01:49 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:01:49] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:01:49 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:01:49] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:01:49 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:01:49] "[33mGET /images/system.JPG HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:02:48 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:02:48 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:02:49 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:02:49 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:02:49 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:02:49] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:02:50 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:02:50] "[37mHEAD / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:02:50 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:02:50] "[37mHEAD / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:02:51 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:02:51] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:02:51 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:02:51] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:02:51 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:02:51] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:03:54 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:03:54] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:03:57 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:03:57] "[37mGET /static/styles/data.jpg HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:03:57 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:03:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:03:58 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:03:58] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:02 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:05:02 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:05:02 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:05:03 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:05:06 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:06] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:06 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:06] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:06 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:06] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:07 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:07] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:07 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:07] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:07 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:07] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:07 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:07] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:08 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:08] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:08 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:08] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:08 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:08] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:05:08 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:05:08] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:06:11 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:06:11 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:06:12 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:06:12 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:06:17 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:06:17] "[37mHEAD / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:06:17 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:06:17] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:06:19 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:06:19] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:06:19 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:06:19] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:06:19 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:06:19] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:06:19 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:06:19] "[33mGET /system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:07:28 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:07:28 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:07:29 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:07:29 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:07:30 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:07:30] "[37mHEAD / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:07:30 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:07:30] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:07:31 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:07:31] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:07:31 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:07:31] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:07:31 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:07:31] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:09:58 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:09:58 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:09:59 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:09:59 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:10:01 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:10:01] "[37mHEAD / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:10:01 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:10:01] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:10:02 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:10:02] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:10:02 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:10:02] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:10:02 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:10:02] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:10:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:10:21] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:10:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:10:21] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:11:01 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:11:01] "[37mHEAD / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:11:01 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:11:01] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:11:02 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:11:02] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:11:02 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:11:02] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:11:02 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:11:02] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:11:02 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:11:02] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:02 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:13:02 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:13:02 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:13:02 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:13:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:21] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:21] "[37mGET /static/styles/scripts.js HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:21] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:21] "[37mGET /static/styles/background.png HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:21] "[37mGET /static/styles/footer.png HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:21] "[37mGET /static/styles/Capture.png HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:21] "[37mGET /static/styles/content_back.png HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:22 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:22] "[37mGET /static/styles/tab.png HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:22 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:22] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:22 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:22] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:22 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:22] "[37mGET /static/styles/styles_about.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:22 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:22] "[37mGET /static/styles/data.jpg HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:52 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:52] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:52 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:52] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:52 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:52] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:54 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:54] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:55 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:55] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:13:55 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:13:55] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:14:51 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:14:51 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:14:52 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:14:52 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:14:54 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:14:54] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:14:55 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:14:55] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:14:55 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:14:55] "[33mGET /templates/images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:15:13 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:15:13 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:15:14 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:15:14 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:15:16 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:15:16] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:15:17 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:15:17] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:15:17 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:15:17] "[33mGET /templates/images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:15:51 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:15:51 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:15:52 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:15:52 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:15:53 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:15:53] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:15:54 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:15:54] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:15:54 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:15:54] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:16:04 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:16:04 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:16:05 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:16:05 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:16:06 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:16:06] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:16:07 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:16:07] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:16:07 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:16:07] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:16:25 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:16:25 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:16:26 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:16:26 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:16:26 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:16:26] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:16:27 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:16:27] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:16:27 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:16:27] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:16:33 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:16:33 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:16:34 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:16:34 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:16:35 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:16:35] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:16:36 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:16:36] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:16:36 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:16:36] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:17:18 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:17:18] "[37mGET /contact HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:17:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:17:21] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:18:21 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:18:21 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:18:22 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:18:22 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:18:23 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:18:23] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:18:24 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:18:24] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:18:24 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:18:24] "[33mGET /templates/images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:18:42 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:18:42] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:18:47 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:18:47] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:18:54 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:18:54] "[33mGET /system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:19:09 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:19:09] "[33mGET /templates/images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:19:53 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:19:53 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:19:54 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:19:54 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:19:55 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:19:55] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:19:56 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:19:56] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:19:56 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:19:56] "[33mGET /images/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:20:27 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:20:27 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:20:28 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:20:28 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:20:28 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:20:28] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:20:29 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:20:29] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:20:29 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:20:29] "[33mGET /system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:20:49 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:20:49 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:20:50 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:20:50 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:20:50 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:20:50] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:20:51 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:20:51] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:20:51 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:20:51] "[33mGET /styles/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:21:11 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:21:11] "[37mGET /contact HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:21:12 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:21:12] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:24:37 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:24:37 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:24:38 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:24:38 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:24:39 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:24:39] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:24:39 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:24:39] "[33mGET /styles/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:24:41 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:24:41] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:24:42 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:24:42] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:24:42 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:24:42] "[33mGET /styles/system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:26:42 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:26:42 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:26:43 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:26:43 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:26:45 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:26:45] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:26:46 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:26:46] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:26:46 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:26:46] "[33mGET /system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:26:57 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:26:57] "[33mGET /system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:27:01 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:27:01] "[33mGET /system.jpg HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:29:57 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:29:57 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:29:58 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:29:58 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:29:59 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:29:59] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:30:00 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:30:00] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:30:00 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:30:00] "[33mGET /images/system.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:30:09 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:30:09] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:30:11 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:30:11] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:30:11 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:30:11] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:30:11 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:30:11] "[33mGET /images/system.png HTTP/1.1[0m" 404 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:19 PM: INFO:  * Running on http://localhost:5555/ (Press CTRL+C to quit) @ _internal.py : _log: --> line 113
+04/21/2020 06:31:19 PM: INFO:  * Restarting with stat @ _internal.py : _log: --> line 113
+04/21/2020 06:31:20 PM: WARNING:  * Debugger is active! @ _internal.py : _log: --> line 113
+04/21/2020 06:31:20 PM: INFO:  * Debugger PIN: 272-626-615 @ _internal.py : _log: --> line 113
+04/21/2020 06:31:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:21] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:21] "[37mGET /static/styles/footer.png HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:21] "[37mGET /static/styles/background.png HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:21] "[37mGET /static/styles/scripts.js HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:21] "[37mGET /static/styles/styles.css HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:21] "[37mGET /static/styles/tab.png HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:21] "[37mGET / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:21 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:21] "[37mHEAD / HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:22 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:22] "[37mGET /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:22 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:22] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:31:22 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:31:22] "[37mGET /static/images/system.png HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
+04/21/2020 06:32:00 PM: INFO: 127.0.0.1 - - [21/Apr/2020 18:32:00] "[37mHEAD /about HTTP/1.1[0m" 200 - @ _internal.py : _log: --> line 113
