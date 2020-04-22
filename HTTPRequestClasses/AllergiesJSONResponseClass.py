@@ -15,13 +15,6 @@ class AllergiesJSONResponse:
                 self.response = response
                 self.entries = self.getAllergyEntriesFromResponse(response)
                 self.allergyDictionaries = self.getDictFromEntries()
-                print("allergyDicts: ", self.allergyDictionaries)
-                for key in self.allergyDictionaries:
-                    print(key,": ",self.allergyDictionaries[key])
-                    for entry in self.allergyDictionaries[key]:
-                        print("allergy", ": ", self.allergyDictionaries[key][entry])
-
-                print(self.allergyDictionaries)
                 logging.info("Created PatientJSONResponse object")
                 logging.debug('patientDictionaries: %s', self.allergyDictionaries)
             except:

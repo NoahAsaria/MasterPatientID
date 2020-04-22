@@ -55,14 +55,14 @@ body {
         }
 #mainPicture {
     width: 770px;
-    height: 345px;
+    height: 900px;
     background-color: #FFFFFF;
 }
 
     #mainPicture .picture {
         position: relative;
         width: 750px;
-        height: 325px;
+        height: 500px;
         top: 10px;
         background-image: url(Capture.png);
         background-repeat: no-repeat;

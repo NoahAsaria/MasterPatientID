@@ -23,3 +23,9 @@ def lookup(DisplayName):
     soup = BeautifulSoup(response.content, features='lxml')
     print(soup.rxnormid.string)
     return soup.rxnormid.string
+
+def getAllergyNameFromCode(code):
+    try:
+        return list(commonCodes.keys())[list(commonCodes.values()).index(code)]
+    except:
+        return code

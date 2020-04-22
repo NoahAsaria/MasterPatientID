@@ -6,6 +6,7 @@ import ParserClass as parser
 import PatientJSONResponseClass as jsonResponse
 import logging
 import operator
+import RXLookup
 import pathlib
 
 import fuzzywuzzy
@@ -79,6 +80,18 @@ def formatJSONDicts(JSONDict):
     for key in JSONDict:
         result +=(key + ": " + str(JSONDict[key]) + "<br><br>")
     return result
+
+def convertCodesToNames(JSONDict):
+    print("JSONDict: ", JSONDict)
+    temp = []
+    print("JSONDict['siimneela']['allergies']", JSONDict['siimneela']['allergies'])
+    for key in JSONDict:
+        for code in JSONDict[key]['allergies']:
+            newVal = RXLookup.getAllergyNameFromCode(code)
+            print("code", code, "newVal", newVal)
+            temp.append(newVal)
+        JSONDict[key]['allergies'] = temp
+    return JSONDict
 
 def sortStringDict(d):
     for key in d:

@@ -115,7 +115,7 @@ def hello():
                 allergyMatches = matcher.unweightedAllergyDictionaryMatch(allergyIdentifiers, AllergyJSONDicts)
                 matchDicts = matcher.sortStringDict(matcher.weightedPatientDictionaryMatch(demographics_dict,PatientJSONDicts,allergyMatches))
 
-
+                matcher.convertCodesToNames(AllergyJSONDicts)
                 text = matcher.formatMatchDict(matchDicts)
                 text += "<strong><br>Patient Information Queried: " + str(demographicIdentifiers) + "<br></strong>"
                 text += str(demographics_dict)
