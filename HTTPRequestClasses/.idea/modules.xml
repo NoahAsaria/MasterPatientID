@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/HTTPRequestClasses.iml" filepath="$PROJECT_DIR$/.idea/HTTPRequestClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MasterPatientID/.idea/HTTPRequestClasses.iml" filepath="$PROJECT_DIR$/../MasterPatientID/.idea/HTTPRequestClasses.iml" />
     </modules>
   </component>
 </project>
